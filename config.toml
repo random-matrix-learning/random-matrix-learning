@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://brainhackmtl.github.io/global2020/"
 languageCode = "en-ca"
 title = "Brainhack 2020ish"
 theme = "trial"
