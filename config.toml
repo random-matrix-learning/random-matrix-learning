@@ -1,0 +1,108 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+languageCode = "en-ca"
+title = "Brainhack 2020ish"
+theme = "trial"
+summaryLength = "10"
+paginate = 6
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/magnific-popup.css"
+  
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/magnific-popup.min.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "book"
+  weight = 1
+  
+  [[menu.main]]
+  name = "Schedule"
+  URL = "chapter"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Reviews"
+  URL = "review"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 6
+
+
+#################### default parameters ################################
+[params]
+logo = ""
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Brainhack MTL"
+# Google Analitycs
+googleAnalitycsID = "" # Your ID
+# copyright
+copyright = "&copy; Brainhack MTL"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Navigation get start button
+[params.navButton]
+enable = true
+buttontext = "Register"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+  
+############################# Footer ########################
+[params.footer]
+content = "Brainhack MTL is run by volunteers for neuroscience-inclined people."
+
+
+############################# post share ###################
+[[params.share]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"
