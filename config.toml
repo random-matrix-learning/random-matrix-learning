@@ -6,28 +6,6 @@ theme = "trial"
 summaryLength = "10"
 paginate = 6
 
-############################# Plugins ##############################
-[params.plugins]
-
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
-  [[params.plugins.css]]
-  URL = "plugins/magnific-popup/magnific-popup.css"
-  
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
-  [[params.plugins.js]]
-  URL = "plugins/magnific-popup/magnific-popup.min.js"
 
   
 ############################## navigation ###############################
@@ -35,7 +13,7 @@ paginate = 6
     
   [[menu.main]]
   name = "About"
-  URL = "book"
+  URL = "banner"
   weight = 1
   
   [[menu.main]]
@@ -43,10 +21,10 @@ paginate = 6
   URL = "chapter"
   weight = 2
   
-  [[menu.main]]
-  name = "Reviews"
-  URL = "review"
-  weight = 3
+  # [[menu.main]]
+  # name = "Reviews"
+  # URL = "review"
+  # weight = 3
   
   [[menu.main]]
   name = "Contact"
@@ -106,3 +84,26 @@ link = "#"
 title = "github"
 icon = "ti-github" # themify icon : https://themify.me/themify-icons
 link = "#"
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/magnific-popup.css"
+  
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/magnific-popup.min.js"
