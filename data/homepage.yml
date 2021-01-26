@@ -106,11 +106,11 @@ reviews:
   subtitle : "We all in this together"
   review:
     # review item loop
-    - name : "Barrow Hasi"
-      image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
+    - name : "Yann Harel"
+      image : "images/client/yann.jpg" # image size 80*80 px
+      designation : "CoCoLab, University of Montréal"
       rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      content : "An overview of the MNE-Python toolbox, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
       
     # review item loop
     - name : "Nilam Arthur"
