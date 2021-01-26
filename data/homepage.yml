@@ -114,17 +114,17 @@ reviews:
       
     # review item loop
     - name : "Danilo Bzdok"
-      image : "images/client/test-2.jpg" # image size 80*80 px
+      image : "images/client/danilo.jpg" # image size 80*80 px
       designation : "Sunrise ten"
       rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      content : "tbd"
       
     # review item loop
     - name : "Guillaume Dumas"
-      image : "images/client/test-1.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
+      image : "images/client/gui.jpg" # image size 80*80 px
+      designation : "CHU Sainte-Justine / Dpt. of Psychiatry / MILA, Université de Montréal"
       rating : "five" # rating from one to five
-      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      content : "Introduction to Python & Introduction to Julia + Experimenting with reproducibility in bio/neuro-informatics"
       
     # # review item loop
     # - name : "Nilam Arthur"
