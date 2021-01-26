@@ -71,24 +71,24 @@ quote:
 ######################### Chapters ##########################
 chapters:
   enable : true
-  title : "What does a Brainhack Look Like?"
-  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  title : "What do you do at a Brainhack?"
+  subtitle : "Learn! Hack! Discuss! Share!"
   chapter:
     # chapter preview loop
-    - title : "Talks"
-      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+    - title : "Training"
+      content : "Tutorials, resources, and hands-on sessions on different neuroimaging tools and methods."
 
     # chapter preview loop
     - title : "Projects"
-      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
-      
-    # chapter preview loop
-    - title : "Training"
-      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      content : "Lots of free hacking time to tinker with a problem of choice."
       
     # chapter preview loop
     - title : "Unconferences"
-      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      content : "Short sessions to present your research or discuss topics of your interest in an informal setting."
+      
+    # chapter preview loop
+    - title : "Socials"
+      content : "To check-in with experts and peers, to share ideas, to plan the seeds of future collaborations."
       
     # # chapter preview loop
     # - title : "Chapter 5"
@@ -102,8 +102,8 @@ chapters:
 ########################## Revews ###########################
 reviews:
   enable : true
-  title : "Keynote lectures"
-  subtitle : "We all in this together"
+  title : "Speakers, Tutors, and Instructors"
+  subtitle : "we are going to listen to, learn from, and chat with..."
   review:
     # review item loop
     - name : "Yann Harel"
@@ -113,14 +113,14 @@ reviews:
       content : "An overview of the MNE-Python toolbox, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
       
     # review item loop
-    - name : "Nilam Arthur"
+    - name : "Danilo Bzdok"
       image : "images/client/test-2.jpg" # image size 80*80 px
       designation : "Sunrise ten"
       rating : "five" # rating from one to five
       content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
       
     # review item loop
-    - name : "Barrow Hasi"
+    - name : "Guillaume Dumas"
       image : "images/client/test-1.jpg" # image size 80*80 px
       designation : "Sunrise ten"
       rating : "five" # rating from one to five
