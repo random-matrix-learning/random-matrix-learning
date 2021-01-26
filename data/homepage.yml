@@ -71,8 +71,8 @@ quote:
 ######################### Chapters ##########################
 chapters:
   enable : true
-  title : "What do you do at a Brainhack?"
-  subtitle : "Learn! Hack! Discuss! Share!"
+  title : "Learn! Hack! Discuss! Share!"
+  subtitle : "In full brainhack spirit, we will:"
   chapter:
     # chapter preview loop
     - title : "Training"
@@ -103,37 +103,44 @@ chapters:
 reviews:
   enable : true
   title : "Speakers, Tutors, and Instructors"
-  subtitle : "we are going to listen to, learn from, and chat with..."
+  subtitle : "we are going to listen to, learn from, and chat with:"
   review:
     # review item loop
     - name : "Yann Harel"
       image : "images/client/yann.jpg" # image size 80*80 px
-      designation : "CoCoLab, University of Montréal"
-      rating : "five" # rating from one to five
+      designation : "CoCoLab, Université de Montréal"
       content : "An overview of the MNE-Python toolbox, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
       
     # review item loop
     - name : "Danilo Bzdok"
       image : "images/client/danilo.jpg" # image size 80*80 px
-      designation : "Sunrise ten"
-      rating : "five" # rating from one to five
-      content : "tbd"
+      designation : "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University / Mila - Quebec AI Institute"
+      content : "Machine-learning workflows for high-dimensional neuromaging datasets"
       
     # review item loop
     - name : "Guillaume Dumas"
       image : "images/client/gui.jpg" # image size 80*80 px
-      designation : "CHU Sainte-Justine / Dpt. of Psychiatry / MILA, Université de Montréal"
-      rating : "five" # rating from one to five
+      designation : "CHU Sainte-Justine / Dpt. of Psychiatry, Université de Montréal / Mila - Quebec AI Institute"
       content : "Introduction to Python & Introduction to Julia + Experimenting with reproducibility in bio/neuro-informatics"
       
-    # # review item loop
-    # - name : "Nilam Arthur"
-    #   image : "images/client/test-2.jpg" # image size 80*80 px
-    #   designation : "Sunrise ten"
-    #   rating : "four" # rating from one to five
-    #   content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
-
-
+    # review item loop
+    - name : "Kendra Oudyk"
+      image : "images/client/kendra.jpg" # image size 80*80 px
+      designation : "tbd"
+      content : "tbd"
+      
+    # review item loop
+    - name : "Patrick Mineault"
+      image : "images/client/patrick.jpg" # image size 80*80 px
+      designation : "tbd"
+      content : "tbd"
+      
+    # review item loop
+    - name : "tbd"
+      image : "images/client/tbd.jpg" # image size 80*80 px
+      designation : "tbd"
+      content : "tbd"
+      
 #################################### device ################################
 devices:
   enable : false
