@@ -186,46 +186,45 @@ author:
 ################################ Awards #####################################
 awards:
   enable : true
-  title : "Sponsors"
+  title : "Brought to you buy"
   award:
     # award item loop
-    - title : "Can"
-      image : "images/about/award-1.png"
+    - title : "Valentina Borghesani"
+      image : "images/client/vale.png"
       
     # award item loop
-    - title : "we"
-      image : "images/about/award-2.png"
+    - title : "Samuel Guay"
+      image : "images/client/sam.png"
       
     # award item loop
-    - title : "get"
+    - title : "Other Person Helping"
       image : "images/about/award-3.png"
       
     # award item loop
-    - title : "some money?"
+    - title : "Other Person Helping"
       image : "images/about/award-4.png"
 
 
 ############################# Other books ###############################
 otherBooks:
-  enable : false
-  title : "Others books by the author"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
-            facere quas blanditiis."
+  enable : true
+  title : "Sponsors"
+  subtitle : "We acknowlege the generous support of"
   book:
     # books loop
-    - image : "images/about/b-1.jpg"
+    - image : "images/about/award-1.png"
       link : "#"
       
     # books loop
-    - image : "images/about/b-2.jpg"
+    - image : "images/about/award-2.png"
       link : "#"
       
     # books loop
-    - image : "images/about/b-3.jpg"
+    - image : "images/about/award-3.png"
       link : "#"
       
     # books loop
-    - image : "images/about/b-4.jpg"
+    - image : "images/about/award-4.png"
       link : "#"
 
 ################################ Blog ###################################
