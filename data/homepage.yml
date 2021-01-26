@@ -190,7 +190,7 @@ awards:
   award:
     # award item loop
     - title : "Valentina Borghesani"
-      image : "images/client/vale.png"
+      image : "images/client/vale.jpg"
       
     # award item loop
     - title : "Samuel Guay"
