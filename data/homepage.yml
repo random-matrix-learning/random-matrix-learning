@@ -162,7 +162,7 @@ schedule:
 
 ######################################## author #############################
 playlist:
-  enable : true
+  enable : false
   #image : "images/about/home-1.jpg"
   title: "Spotify playlist"
   #designation : ""
@@ -171,8 +171,8 @@ playlist:
 
   # button
   button:
-    enable : true
-    label : "Purchase on amazon"
+    enable : false
+    label : "Spotify"
     link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 
@@ -249,4 +249,4 @@ contact:
     - title : "Need help?"
       icon : "ti-help" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "Read this [FAQ](https://brainhack.org/global2020/faq/) or use the [chat](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2018)"
+        - listItem : "Read this [FAQ](https://brainhack.org/global2020/faq/) or use the [chat](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)"
