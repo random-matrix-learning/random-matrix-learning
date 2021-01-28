@@ -147,7 +147,7 @@ devices:
   title : "Schedule"
   content : "Find our schedule on Google Calendar [here](https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457)!"
  # image : "images/about/ipad.jpg"
-  content:  
+ # content:  
     # feature item loop
 #    - title : "Take a sneak peak insight"
 #      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
