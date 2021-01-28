@@ -2,7 +2,7 @@
 baseURL = "https://brainhackmtl.github.io/global2020/"
 languageCode = "en-ca"
 title = "Brainhack 2020ish"
-theme = "trial"
+theme = "trial", ["hugo-itsalocke", "hugo-utilitybelt"]
 summaryLength = "10"
 paginate = 6
 
@@ -13,12 +13,12 @@ paginate = 6
     
   [[menu.main]]
   name = "About"
-  URL = "banner"
+  URL = "about"
   weight = 1
 
   [[menu.main]]
   name = "Mattermost"
-  URL = "quote"
+  URL = "mattermost"
   weight = 2
 
   [[menu.main]]
