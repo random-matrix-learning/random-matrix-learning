@@ -61,7 +61,7 @@ service:
       content : "Meet your old friend or make new ones"
 
 ######################### Quote #############################
-mattermost:
+quote:
   enable : true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
     Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
@@ -100,7 +100,7 @@ chapters:
 
 
 ########################## Revews ###########################
-speakers:
+reviews:
   enable : true
   title : "Speakers, Tutors, and Instructors"
   subtitle : "we are going to listen to, learn from, and chat with:"
@@ -177,10 +177,10 @@ speakers:
 
 
 ################################ Awards #####################################
-webdev:
+awards:
   enable : true
   title : "Website brought to you by"
-  webdev:
+  awards:
     # award item loop
     - title : "Valentina Borghesani"
       image : "images/client/vale.jpg"
