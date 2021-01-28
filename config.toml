@@ -15,21 +15,26 @@ paginate = 6
   name = "About"
   URL = "banner"
   weight = 1
-  
+
+  [[menu.main]]
+  name = "Mattermost"
+  URL = "mattermost"
+  weight = 2
+
   [[menu.main]]
   name = "Schedule"
   URL = "chapter"
-  weight = 2
+  weight = 3
   
    [[menu.main]]
    name = "Instructors"
-   URL = "review"
-   weight = 3
+   URL = "speakers"
+   weight = 4
   
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 6
+  weight = 5
 
 
 #################### default parameters ################################
