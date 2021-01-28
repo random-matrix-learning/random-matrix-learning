@@ -180,7 +180,7 @@ reviews:
 awards:
   enable : true
   title : "Website brought to you by"
-  awards:
+  award:
     # award item loop
     - title : "Valentina Borghesani"
       image : "images/client/vale.jpg"
@@ -199,7 +199,7 @@ awards:
 
 
 ############################# Other books ###############################
-sponsors:
+otherBooks:
   enable : true
   title : "Sponsors"
   subtitle : "We acknowlege the generous support of"
