@@ -143,7 +143,7 @@ speakers:
       
 #################################### device ################################
 schedule:
-  enable : true
+  enable : false
   title : "Schedule"
   content : "Find our schedule on Google Calendar here!"
   image : "images/about/ipad.jpg"
