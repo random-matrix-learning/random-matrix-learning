@@ -142,12 +142,12 @@ speakers:
     #  content : "tbd"
       
 #################################### device ################################
-schedule:
-  enable : false
-  title : "Schedule"
-  content : "Find our schedule on Google Calendar here!"
-  image : "images/about/ipad.jpg"
-  content:  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+#schedule:
+#  enable : false
+#  title : "Schedule"
+#  content : "Find our schedule on Google Calendar here!"
+#  image : "images/about/ipad.jpg"
+#  content:  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     # feature item loop
 #    - title : "Take a sneak peak insight"
 #      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
@@ -161,19 +161,19 @@ schedule:
 #
 
 ######################################## author #############################
-playlist:
-  enable : false
-  #image : "images/about/home-1.jpg"
-  title: "Spotify playlist"
-  #designation : ""
-  content : "Checkout the Brainhack playlist for music to hack to"
+#playlist:
+#  enable : false
+#  #image : "images/about/home-1.jpg"
+#  title: "Spotify playlist"
+#  #designation : ""
+#  content : "Checkout the Brainhack playlist for music to hack to"
 
 
   # button
-  button:
-    enable : false
-    label : "Spotify"
-    link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
+ # button:
+ #   enable : false
+ #   label : "Spotify"
+ #   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 
 ################################ Awards #####################################
