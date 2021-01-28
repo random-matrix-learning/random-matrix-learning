@@ -6,7 +6,7 @@ banner:
   image : "images/logo.png"
   content : |
     Brainhack is a collaborative event that focuses on the open sharing of ideas, code, and data.
-    During Brainhack Global, we will meet **virtually** in Montreal to work on projects and learn.
+    During Brainhack Global, we will meet **virtually** in Montreal to work collaboratively on projects and learn.
   price : "2020ish"
   button: Know more
 
@@ -64,7 +64,7 @@ service:
 quote:
   enable : true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
-    Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2018)."
+    Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl)."
   quoteBy: ""
 
 
@@ -72,23 +72,23 @@ quote:
 chapters:
   enable : true
   title : "Learn! Hack! Discuss! Share!"
-  subtitle : "In full brainhack spirit, we will:"
+  subtitle : "In full brainhack spirit, there will be:"
   chapter:
     # chapter preview loop
     - title : "Training"
-      content : "Tutorials, resources, and hands-on sessions on different neuroimaging tools and methods."
+      content : "Tutorials, resources, and hands-on sessions for neuroimaging tools and methods."
 
     # chapter preview loop
     - title : "Projects"
-      content : "Lots of free hacking time to tinker with a problem of choice."
+      content : "Lots of free hacking time to tinker with a project of your choice."
       
     # chapter preview loop
     - title : "Unconferences"
-      content : "Short sessions to present your research or discuss topics of your interest in an informal setting."
+      content : "Short sessions to present your research or discuss topics of interest in an informal setting."
       
     # chapter preview loop
     - title : "Socials"
-      content : "To check-in with experts and peers, to share ideas, to plan the seeds of future collaborations."
+      content : "Meet or check-in with experts and peers, share ideas, and plant the seeds of future collaborations."
       
     # # chapter preview loop
     # - title : "Chapter 5"
@@ -186,7 +186,7 @@ author:
 ################################ Awards #####################################
 awards:
   enable : true
-  title : "Brought to you buy"
+  title : "Brought to you by"
   award:
     # award item loop
     - title : "Valentina Borghesani"
@@ -197,7 +197,7 @@ awards:
       image : "images/client/sam.png"
       
     # award item loop
-    - title : "Other Person Helping"
+    - title : "Désirée Lussier"
       image : "images/about/award-3.png"
       
     # award item loop
