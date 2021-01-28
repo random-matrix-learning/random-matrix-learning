@@ -133,6 +133,11 @@
           <h2 class="text-lg">{{ .title | markdownify }}</h2>
           <p>{{ .subtitle | markdownify }}</p>
         </div>
+
+        
+      </div>
+      <div class="col-lg-6 text-center">
+      <iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
     </div>
     <div class="row">
@@ -207,7 +212,7 @@
       <div class="col-lg-6 col-md-6">
         <h2 class="mb-4">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
-
+        
         {{ range .feature }}
         <div class="feature-item d-flex mt-5 mb-3">
           {{ if .icon }}
@@ -221,18 +226,21 @@
           </div>
         </div>
         {{ end }}
-
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
         {{ end }}
         {{ end }}
       </div>
-
+      
       <div class="col-lg-6 col-md-6">
         <div class="mt-5 mt-lg-0">
           <img src="{{ .image | relURL }}" alt="" class="img-fluid w-100">
         </div>
+      </div>
+      <div class="col-12">
+
+        <iframe src="https://calendar.google.com/calendar/embed?height=1000&amp;wkst=2&amp;bgcolor=%234a578e&amp;src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;title=Brainhack%20MTL%202020ish&amp;mode=AGENDA&amp;showTabs=0&amp;showCalendars=0&amp;showPrint=0&amp;tab=mc&amp;mode=week&amp;dates=20210215/20210222&amp;ctz=America/New_York" style="border:solid 1px #777" scrolling="no" width="100%" height="1000" frameborder="0"></iframe>
       </div>
     </div>
   </div>
@@ -327,14 +335,22 @@
 </section>
 {{ end }}
 {{ end }}
-
+<section class="section blog-home border-top" id="register">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 mx-auto">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcAE72Fls3nSkEjU5F6DgHuJYZVol7_1BSyG6d0jPDgHDS3Q/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Latest blog -->
 {{ if .Site.Data.homepage.blog.enable }}
 <section class="section blog-home border-top" id="blog">
   <div class="container">
     {{ with .Site.Data.homepage.blog }}
     <div class="row justify-content-center">
-      <div class="col-lg-6">
+       <div class="col-lg-6">
         <div class="section-heading text-center">
           <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
           <p>{{ .subtitle | markdownify }}</p>
