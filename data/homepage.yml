@@ -41,14 +41,14 @@ banner:
 #    link : "#"
 
 
-########################## Service ##############################
+########################## About ##############################
 about:
   enable : true
   aboutItem:
     # service item loop
     - title : "Experience"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
-      content : "Brainhack is a transformative"
+      content : "Brainhack is transformative."
       
     # service item loop
     - title : "Code"
@@ -58,9 +58,9 @@ about:
     # service item loop
     - title : "Network"
       icon : "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
-      content : "Meet your old friend or make new ones"
+      content : "Meet your old friend or make new ones."
 
-######################### Quote #############################
+######################### Mattermost #############################
 mattermost:
   enable : true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
@@ -159,6 +159,12 @@ devices:
 #      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."#
 ##
 #
+
+  # button
+ # button:
+ #   enable : false
+ #   label : "Spotify"
+ #   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 ######################################## author #############################
 #playlist:
