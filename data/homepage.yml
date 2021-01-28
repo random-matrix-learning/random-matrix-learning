@@ -11,34 +11,34 @@ banner:
   button: Know more
 
 ######################## Book Preview ##########################
-preview:
-  enable : false
-  pagePreview:
-    # page preview loop
-    - image : "images/about/book_page.png"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
-
-  title : "Look Inside the book"
-  content : "
-  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
-
-
-  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
-  "
-
-  inside:
-    # book inside item loop
-    - insideItem : "7 Chapter"
-    - insideItem : "Explained Details"
-    - insideItem : "Clear Understanding"
-    - insideItem : "Best practices"
-
+#preview:
+#  enable : false
+#  pagePreview:
+#    # page preview loop
+#    - image : "images/about/book_page.png"
+#    - image : "images/about/book_page2.png"
+#    - image : "images/about/book_page.png"
+#
+#  title : "Look Inside the book"
+#  content : "
+#  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
+#
+#
+#  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
+#  "
+#
+#  inside:
+#    # book inside item loop
+#    - insideItem : "7 Chapter"
+#    - insideItem : "Explained Details"
+#    - insideItem : "Clear Understanding"
+#    - insideItem : "Best practices"
+#
   # button
-  button:
-    enable : true
-    label : "Purchase on Amazon"
-    link : "#"
+#  button:
+#    enable : true
+#    label : "Purchase on Amazon"
+#    link : "#"
 
 
 ########################## Service ##############################
@@ -61,10 +61,10 @@ service:
       content : "Meet your old friend or make new ones"
 
 ######################### Quote #############################
-quote:
+mattermost:
   enable : true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
-    Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl)."
+    Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
   quoteBy: ""
 
 
@@ -100,7 +100,7 @@ chapters:
 
 
 ########################## Revews ###########################
-reviews:
+speakers:
   enable : true
   title : "Speakers, Tutors, and Instructors"
   subtitle : "we are going to listen to, learn from, and chat with:"
@@ -136,58 +136,51 @@ reviews:
       content : "tbd"
       
     # review item loop
-    - name : "tbd"
-      image : "images/client/tbd.jpg" # image size 80*80 px
-      designation : "tbd"
-      content : "tbd"
+    #- name : "tbd"
+    #  image : "images/client/tbd.jpg" # image size 80*80 px
+    #  designation : "tbd"
+    #  content : "tbd"
       
 #################################### device ################################
-devices:
-  enable : false
-  title : "Read it on your favorite device!"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
-          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
-          tenetur necessitatibus expedita eius, sed."
+schedule:
+  enable : true
+  title : "Schedule"
+  content : "Find our schedule on Google Calendar here!"
   image : "images/about/ipad.jpg"
-  feature:
+  content:  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     # feature item loop
-    - title : "Take a sneak peak insight"
-      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+#    - title : "Take a sneak peak insight"
+#      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+#      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
       
-    # feature item loop
-    - title : "Reporting & Analysis"
-      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+#    # feature item loop
+#    - title : "Reporting & Analysis"
+#      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+#      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."#
+##
+#
+
+######################################## author #############################
+playlist:
+  enable : true
+  #image : "images/about/home-1.jpg"
+  title: "Spotify playlist"
+  #designation : ""
+  content : "Checkout the Brainhack playlist for music to hack to"
 
 
   # button
   button:
     enable : true
     label : "Purchase on amazon"
-    link : "#"
-
-######################################## author #############################
-author:
-  enable : false
-  image : "images/about/home-1.jpg"
-  name : "Yasin Arafat"
-  designation : "A technical Writer"
-  content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
-
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
-
-  # signature
-  signature : "images/about/2.png"
+    link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 
 ################################ Awards #####################################
-awards:
+webdev:
   enable : true
-  title : "Brought to you by"
-  award:
+  title : "Website brought to you by"
+  webdev:
     # award item loop
     - title : "Valentina Borghesani"
       image : "images/client/vale.jpg"
@@ -198,15 +191,15 @@ awards:
       
     # award item loop
     - title : "Désirée Lussier"
-      image : "images/about/award-3.png"
+      image : "images/client/lussier.png"
       
     # award item loop
-    - title : "Other Person Helping"
-      image : "images/about/award-4.png"
+   # - title : "Other Person Helping"
+   #   image : "images/about/award-4.png"
 
 
 ############################# Other books ###############################
-otherBooks:
+sponsors:
   enable : true
   title : "Sponsors"
   subtitle : "We acknowlege the generous support of"
@@ -228,10 +221,10 @@ otherBooks:
       link : "#"
 
 ################################ Blog ###################################
-blog:
-  enable : false
-  title : "Our insights and articles"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+#blog:
+#  enable : false
+#  title : "Our insights and articles"
+#  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
 
 ################################# Contact ##############################
