@@ -18,7 +18,7 @@ paginate = 6
 
   [[menu.main]]
   name = "Mattermost"
-  URL = "mattermost"
+  URL = "quote"
   weight = 2
 
   [[menu.main]]
@@ -28,7 +28,7 @@ paginate = 6
   
    [[menu.main]]
    name = "Instructors"
-   URL = "speakers"
+   URL = "reviews"
    weight = 4
   
   [[menu.main]]
