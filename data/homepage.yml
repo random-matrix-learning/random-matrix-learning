@@ -42,9 +42,9 @@ banner:
 
 
 ########################## Service ##############################
-service:
+about:
   enable : true
-  serviceItem:
+  aboutItem:
     # service item loop
     - title : "Experience"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
