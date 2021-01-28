@@ -21,10 +21,10 @@ paginate = 6
   URL = "chapter"
   weight = 2
   
-  # [[menu.main]]
-  # name = "Reviews"
-  # URL = "review"
-  # weight = 3
+   [[menu.main]]
+   name = "Instructors"
+   URL = "review"
+   weight = 3
   
   [[menu.main]]
   name = "Contact"
