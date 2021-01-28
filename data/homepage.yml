@@ -61,7 +61,7 @@ about:
       content : "Meet your old friend or make new ones"
 
 ######################### Quote #############################
-quote:
+mattermost:
   enable : true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
     Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
