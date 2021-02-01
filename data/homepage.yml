@@ -102,7 +102,7 @@ chapters:
 ########################## Revews ###########################
 reviews:
   enable : true
-  title : "Speakers, Tutors, and Instructors"
+  title : "Tutors & Instructors"
   subtitle : "we are going to listen to, learn from, and chat with:"
   review:
     # review item loop
@@ -125,21 +125,21 @@ reviews:
       
     # review item loop
     - name : "Kendra Oudyk"
-      image : "images/client/kendra.jpg" # image size 80*80 px
-      designation : "tbd"
-      content : "tbd"
+      image : "images/client/kendra.jpeg" # image size 80*80 px
+      designation : "McGill University"
+      content : "Git & Github Tutorial + Q&A"
       
     # review item loop
-    - name : "Patrick Mineault"
-      image : "images/client/patrick.jpg" # image size 80*80 px
-      designation : "tbd"
-      content : "tbd"
+    - name : "Anibal Solon"
+      image : "images/client/ani.png" # image size 80*80 px
+      designation : "Computational Neuroimaging Lab, The University of Texas at Austin"
+      content : "Git & Github Tutorial + Q&A"
       
     # review item loop
-    #- name : "tbd"
-    #  image : "images/client/tbd.jpg" # image size 80*80 px
-    #  designation : "tbd"
-    #  content : "tbd"
+    - name : "Sebastian Urchs"
+      image : "images/client/seb.jpg" # image size 80*80 px
+      designation : "Montreal Neurological Institute, Origami Lab / Douglas Research Centre, CoBra Lab"
+      content : "Let the visualization do the work. How interactive visualization can make your life easier and your figures pretty to look at."
       
 #################################### device ################################
 devices:
@@ -185,7 +185,7 @@ devices:
 ################################ Awards #####################################
 awards:
   enable : true
-  title : "Website brought to you by"
+  title : "Brought to you by"
   award:
     # award item loop
     - title : "Valentina Borghesani"
@@ -200,8 +200,8 @@ awards:
       image : "images/client/lussier.jpeg"
       
     # award item loop
-   # - title : "Other Person Helping"
-   #   image : "images/about/award-4.png"
+   # - title : "Aman Badhwar"
+   #   image : "images/client/aman.png"
 
 
 ############################# Other books ###############################
@@ -211,20 +211,16 @@ otherBooks:
   subtitle : "We acknowlege the generous support of"
   book:
     # books loop
-    - image : "images/about/award-1.png"
-      link : "#"
+    - image : "images/client/udem.png"
+      link : "https://www.umontreal.ca/"
       
     # books loop
-    - image : "images/about/award-2.png"
-      link : "#"
+    - image : "images/client/concordia.png"
+      link : "https://www.concordia.ca/"
       
     # books loop
-    - image : "images/about/award-3.png"
-      link : "#"
-      
-    # books loop
-    - image : "images/about/award-4.png"
-      link : "#"
+    - image : "images/client/mcgill.png"
+      link : "https://www.mcgill.ca/"
 
 ################################ Blog ###################################
 #blog:
