@@ -200,14 +200,14 @@ awards:
       image : "images/client/lussier.jpeg"
       
     # award item loop
-   # - title : "Aman Badhwar"
-   #   image : "images/client/aman.png"
+    - title : "Aman Badhwar"
+      image : "images/client/aman.png"
 
 
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "Sponsors"
+  title : "Friends & sponsors"
   subtitle : "We acknowlege the generous support of"
   book:
     # books loop
@@ -219,7 +219,7 @@ otherBooks:
       link : "https://www.concordia.ca/"
       
     # books loop
-    - image : "images/client/mcgill.png"
+    - image : "images/client/mcgiill.png"
       link : "https://www.mcgill.ca/"
 
 ################################ Blog ###################################
