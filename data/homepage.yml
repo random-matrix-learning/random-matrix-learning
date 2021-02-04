@@ -76,29 +76,24 @@ chapters:
   chapter:
     # chapter preview loop
     - title : "Training"
-      content : "Tutorials, resources, and hands-on sessions for neuroimaging tools and methods."
+      content : "Tutorials, resources, and hands-on sessions for neuroimaging tools and methods. From how-to-code (python! julia! version control!) to how-to-plot: we got you covered!"
 
     # chapter preview loop
     - title : "Projects"
-      content : "Lots of free hacking time to tinker with a project of your choice."
+      content : "Lots of free hacking time to tinker with a project of your choice. You can browse already submitted [projects](https://brainhack.org/global2020/projects/) and get ready to pitch your own during our first day "
       
     # chapter preview loop
     - title : "Unconferences"
-      content : "Short sessions to present your research or discuss topics of interest in an informal setting."
+      content : "Short sessions to present your research or discuss topics of interest in an informal setting. We're planning on having debates on the future of scientific journals & conferences: bring your best questions and suggestions!"
       
     # chapter preview loop
     - title : "Socials"
-      content : "Meet or check-in with experts and peers, share ideas, and plant the seeds of future collaborations."
+      content : "Meet or check-in with experts and peers, share ideas, and plant the seeds of future collaborations. There's gonna be a gathertown space full of games and a trivia night! We'll miss the physical high-fives, but we'll be there for you!"
       
     # # chapter preview loop
     # - title : "Chapter 5"
     #   content : "Tips on scouting the city and making the most out of your three-month tourist visa."
       
-    # # chapter preview loop
-    # - title : "Chapter 6"
-    #   content : "Tips on scouting the city and making the most out of your three-month tourist visa."
-
-
 ########################## Revews ###########################
 reviews:
   enable : true
