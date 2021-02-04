@@ -137,9 +137,27 @@ reviews:
       
     # review item loop
     - name : "Sebastian Urchs"
-      image : "images/client/seb.jpg" # image size 80*80 px
+      image : "images/client/seb.JPG" # image size 80*80 px
       designation : "Montreal Neurological Institute, Origami Lab / Douglas Research Centre, CoBra Lab"
       content : "Let the visualization do the work. How interactive visualization can make your life easier and your figures pretty to look at."
+      
+    # review item loop
+    - name : "Loic Tetrel"
+      image : "images/client/loic.jpeg" # image size 80*80 px
+      designation : "SIMEXP lab, CRIUGM"
+      content : "Hands on Neurolibre, a cloud-based and curated repository for jupyter notebooks in neuroscience."
+      
+    # review item loop
+    - name : "Jean-Baptiste Poline"
+      image : "images/client/jp.png" # image size 80*80 px
+      designation : "Montreal Neurological Institute, McGill University/ NeuroHub"
+      content : "Questioning our questions and models in neuroimaging"
+    
+    # review item loop
+    - name : "Patrick Mineault"
+      image : "images/client/pm.png" # image size 80*80 px
+      designation : "tbd"
+      content : "Test-driven development"
       
 #################################### device ################################
 devices:
@@ -200,8 +218,8 @@ awards:
       image : "images/client/lussier.jpeg"
       
     # award item loop
-    - title : "Aman Badhwar"
-      image : "images/client/aman.png"
+    - title : "And all the Brainhack Team!"
+      image : "images/logo.png"
 
 
 ############################# Other books ###############################
@@ -215,13 +233,13 @@ otherBooks:
       link : "https://www.umontreal.ca/"
       
     # books loop
+    - image : "images/client/mcgiill.png"
+      link : "https://www.mcgill.ca/"
+      
+    # books loop
     - image : "images/client/concordia.png"
       link : "https://www.concordia.ca/"
       
-    # books loop
-    - image : "images/client/mcgiill.png"
-      link : "https://www.mcgill.ca/"
-
 ################################ Blog ###################################
 #blog:
 #  enable : false
