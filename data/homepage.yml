@@ -105,7 +105,13 @@ reviews:
       image : "images/client/yann.jpg" # image size 80*80 px
       designation : "CoCoLab, Université de Montréal"
       content : "An overview of the MNE-Python toolbox, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
-      
+    
+    # review item loop
+    - name : "Dorota Jarecka"
+      image : "images/client/dj.jpeg" # image size 80*80 px
+      designation : "Massachusetts Institute of Technology"
+      content : "Introduction to Pydra - a new workflow engine for Nipype 2.0"
+   
     # review item loop
     - name : "Danilo Bzdok"
       image : "images/client/danilo.jpg" # image size 80*80 px
@@ -150,7 +156,7 @@ reviews:
     
     # review item loop
     - name : "Patrick Mineault"
-      image : "images/client/pm.png" # image size 80*80 px
+      image : "images/logo.png" # while waiting for proper one
       designation : "tbd"
       content : "Test-driven development"
       
