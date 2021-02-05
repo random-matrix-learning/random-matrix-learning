@@ -6,8 +6,8 @@ banner:
   image : "images/logo.png"
   content : |
     Brainhack is a collaborative event that focuses on the open sharing of ideas, code, and data. 
-    From February 15th to 26th, we will meet virtually in Montreal to learn from each ther, 
-    work collaboratively on cool projects, and plant the seeds of future adventures (whether online or in person!). #BHMTL2020ish
+    From **February 15th to 26th**, we will meet virtually in Montreal to learn from each ther, 
+    work collaboratively on cool projects, and plant the seeds of future adventures (whether online or in person!). **#BHMTL2020ish**
   price : "2020ish"
   button: Know more
 
@@ -104,67 +104,67 @@ reviews:
     - name : "Yann Harel"
       image : "images/client/yann.jpg" # image size 80*80 px
       designation : "CoCoLab, Université de Montréal"
-      content : "An overview of the MNE-Python toolbox, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
+      content : "**An overview of MNE-Python**, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
     
     # review item loop
     - name : "Dorota Jarecka"
       image : "images/client/dj.jpeg" # image size 80*80 px
       designation : "Massachusetts Institute of Technology"
-      content : "Introduction to Pydra - a new workflow engine for Nipype 2.0"
+      content : "**Introduction to Pydra - a new workflow engine for Nipype 2.0**"
    
     # review item loop
     - name : "Danilo Bzdok"
       image : "images/client/danilo.jpg" # image size 80*80 px
       designation : "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University / Mila - Quebec AI Institute"
-      content : "Machine-learning workflows for high-dimensional neuromaging datasets"
+      content : "**Machine-learning workflows for high-dimensional neuromaging datasets**"
       
       # review item loop
     - name : "Ella Gabitov"
       image : "images/client/eg.png" # while waiting for proper one
       designation : " McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University"
-      content : "Questioning our questions and models in neuroimaging"   
+      content : "**Questioning our questions and models in neuroimaging**"   
       
     # review item loop
     - name : "Guillaume Dumas"
       image : "images/client/gui.jpg" # image size 80*80 px
       designation : "CHU Sainte-Justine / Dpt. of Psychiatry, Université de Montréal / Mila - Quebec AI Institute"
-      content : "Introduction to Python & Introduction to Julia + Experimenting with reproducibility in bio/neuro-informatics"
+      content : "**Introduction to Python & to Julia** and **Experimenting with reproducibility in bio/neuro-informatics**"
       
     # review item loop
     - name : "Kendra Oudyk"
       image : "images/client/kendra.jpeg" # image size 80*80 px
       designation : "McGill University"
-      content : "Git & Github Tutorial + Q&A"
+      content : "**Git & Github Tutorial + Q&A**"
       
     # review item loop
     - name : "Anibal Solon"
       image : "images/client/ani.png" # image size 80*80 px
       designation : "Computational Neuroimaging Lab, The University of Texas at Austin"
-      content : "Git & Github Tutorial + Q&A"
+      content : "**Git & Github Tutorial + Q&A**"
       
     # review item loop
     - name : "Sebastian Urchs"
       image : "images/client/seb.JPG" # image size 80*80 px
       designation : "Montreal Neurological Institute, Origami Lab / Douglas Research Centre, CoBra Lab"
-      content : "Let the visualization do the work. How interactive visualization can make your life easier and your figures pretty to look at."
+      content : "**Let the visualization do the work**: how interactive visualization can make your life easier and your figures pretty to look at."
       
     # review item loop
     - name : "Loic Tetrel"
       image : "images/client/loic.jpeg" # image size 80*80 px
       designation : "SIMEXP lab, CRIUGM"
-      content : "Hands on Neurolibre, a cloud-based and curated repository for jupyter notebooks in neuroscience."
+      content : "**Hands on Neurolibre, a cloud-based and curated repository for jupyter notebooks in neuroscience.**"
       
     # review item loop
     - name : "Jean-Baptiste Poline"
       image : "images/client/jp.png" # image size 80*80 px
       designation : "Montreal Neurological Institute, McGill University/ NeuroHub"
-      content : "Questioning our questions and models in neuroimaging"
+      content : "**Questioning our questions and models in neuroimaging**"
       
     # review item loop
     - name : "Patrick Mineault"
       image : "images/logo.png" # while waiting for proper one
       designation : "tbd"
-      content : "Test-driven development"
+      content : "**Test-driven development**"
       
 #################################### device ################################
 devices:
