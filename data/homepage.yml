@@ -118,6 +118,12 @@ reviews:
       designation : "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University / Mila - Quebec AI Institute"
       content : "Machine-learning workflows for high-dimensional neuromaging datasets"
       
+      # review item loop
+    - name : "Ella Gabitov"
+      image : "images/client/eg.png" # while waiting for proper one
+      designation : " McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University"
+      content : "Questioning our questions and models in neuroimaging"   
+      
     # review item loop
     - name : "Guillaume Dumas"
       image : "images/client/gui.jpg" # image size 80*80 px
@@ -153,12 +159,6 @@ reviews:
       image : "images/client/jp.png" # image size 80*80 px
       designation : "Montreal Neurological Institute, McGill University/ NeuroHub"
       content : "Questioning our questions and models in neuroimaging"
-      
-    # review item loop
-    - name : "Ella Gabitov"
-      image : "images/eg.png" # while waiting for proper one
-      designation : " McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University"
-      content : "Questioning our questions and models in neuroimaging"   
       
     # review item loop
     - name : "Patrick Mineault"
