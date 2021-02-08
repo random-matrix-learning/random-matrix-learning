@@ -86,8 +86,8 @@
     <div class="row align-items-center">
       {{ range .aboutItem }}
       <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="about-block mb-4 mb-lg-0">
-          <i class="{{ .icon }} text-color"></i>
+        <div class="about-block mb-4 mb-lg-0 text-center">
+          <i class="{{ .icon }} text-color text-lg"></i>
           <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
           <p class="mb-0">{{ .content | markdownify }}</p>
         </div>
@@ -321,7 +321,7 @@
 
     <div class="row">
       {{ range .book }}
-      <div class="col-lg-3 col-md-6 col-sm-6">
+      <div class="col-lg-3 col-md-6 col-sm-6 my-auto mx-auto">
         <div class="book-item mb-4 mb-lg-0">
           <img src="{{ .image | relURL }}" alt="" class="img-fluid">
           <a href="{{ .link | safeURL }}" class="hover-item">
