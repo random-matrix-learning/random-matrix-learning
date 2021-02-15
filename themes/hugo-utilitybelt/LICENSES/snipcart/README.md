@@ -1,1 +1,0 @@
-https://github.com/dwalkr/snipcart-hugo-demo

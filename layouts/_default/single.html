@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section blog-wrap border-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="row">
+          <div class="col-lg-12 mb-5">
+            <div class="single-blog-item ">
+
+              {{ .Params.project_description | markdownify | emojify }}
+            </div>
+          </div>
+
+        </div>
+      </div>
+      {{/*  {{ partial "sidebar.html" . }}  */}}
+    </div>
+  </div>
+</section>
+
+
+
+{{ end }}
