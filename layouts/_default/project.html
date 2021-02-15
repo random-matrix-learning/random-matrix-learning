@@ -1,0 +1,12 @@
+<div class="card my-2">
+  {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" .Params.Content }}
+  {{ $project_url := findRE "http.*" .Params.project_url }}
+  <img class="card-img-top" src="{{ range $img_url | first 1}}{{ . }}{{end}}" alt="">
+  <div class="card-body">
+    <h4 class="card-title">{{.Title}}</h4>
+    {{/*  <h6 class="card-subtitle mb-2 text-muted">{{.}}</h6>  */}}
+    <p class="card-text"> {{ .Params.project_description | markdownify | truncate 150}} </p>
+    <a href="https://github.com/brainhackorg/global2020/issues/{{ .Params.issue_number}}" class="card-link text-bold">Project Issue</a>
+    <a href="{{ range $project_url | first 1}}{{ print . | safeHTMLAttr }}{{end}}" class="card-link text-bold">Project Page</a>
+  </div>
+</div>

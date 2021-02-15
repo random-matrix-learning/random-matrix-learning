@@ -32,6 +32,11 @@ paginate = 6
    weight = 4
   
   [[menu.main]]
+  name = "Projects"
+  URL = "projects"
+  weight = 4
+
+  [[menu.main]]
   name = "Contact"
   URL = "contact"
   weight = 5
@@ -42,7 +47,7 @@ paginate = 6
 logo = ""
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Brainhack MTL is happening!!!"
 author = "Brainhack MTL"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID

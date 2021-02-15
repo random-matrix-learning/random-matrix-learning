@@ -62,10 +62,18 @@ about:
 
 ######################### Mattermost #############################
 mattermost:
-  enable : true
+  enable: true
   quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
     Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
   quoteBy: ""
+
+
+####### SLIDES ######
+
+presentation:
+  enable: true
+  title: First-day presentation
+  subtitle: All the important links are in the second page!
 
 
 ######################### Chapters ##########################
@@ -248,11 +256,14 @@ otherBooks:
       link : "https://www.concordia.ca/"
       
 ################################ Blog ###################################
-#blog:
-#  enable : false
-#  title : "Our insights and articles"
-#  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
-  # blog post comes from 'content/blog'
+blog:
+ enable : true
+ title : "Projects"
+ subtitle : "Feel free to join any project you are interested in!"
+# blog post comes from 'content/blog'
+
+
+
 
 ################################# Contact ##############################
 contact:
