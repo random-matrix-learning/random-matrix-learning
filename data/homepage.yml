@@ -1,14 +1,14 @@
 ########################## Banner #############################
 banner:
-  enable : true
-  writter : "Montreal Edition of"
-  title : "Brainhack Global"
-  image : "images/logo.png"
-  content : |
+  enable: true
+  writter: "Montreal Edition of"
+  title: "Brainhack Global"
+  image: "images/logo.png"
+  content: |
     Brainhack is a collaborative event that focuses on the open sharing of ideas, code, and data. 
     From **February 15th to 26th**, we will meet virtually in Montreal to learn from each ther, 
     work collaboratively on cool projects, and plant the seeds of future adventures (whether online or in person!). **#BHMTL2020ish**
-  price : "2020ish"
+  price: "2020ish"
   button: Know more
 
 ######################## Book Preview ##########################
@@ -35,7 +35,7 @@ banner:
 #    - insideItem : "Clear Understanding"
 #    - insideItem : "Best practices"
 #
-  # button
+# button
 #  button:
 #    enable : true
 #    label : "Purchase on Amazon"
@@ -43,149 +43,189 @@ banner:
 
 ########################## About ##############################
 about:
-  enable : true
+  enable: true
   aboutItem:
     # service item loop
-    - title : "Experience"
-      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
-      content : "Brainhack is transformative."
-      
+    - title: "Experience"
+      icon: "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      content: "Brainhack is transformative."
+
     # service item loop
-    - title : "Code"
-      icon : "ti-desktop" # themify icon pack : https://themify.me/themify-icons
-      content : "Eat, code, eat, code, sleep."
-      
+    - title: "Code"
+      icon: "ti-desktop" # themify icon pack : https://themify.me/themify-icons
+      content: "Eat, code, eat, code, sleep."
+
     # service item loop
-    - title : "Network"
-      icon : "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
-      content : "Meet your old friend or make new ones."
+    - title: "Network"
+      icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
+      content: "Meet your old friend or make new ones."
 
 ######################### Mattermost #############################
 mattermost:
   enable: true
-  quote: "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to connect with the community and start planning your project!
-    Our channel name is [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
+  quote:
+    "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to
+    connect with the community and start planning your project! Our channel name
+    is
+    [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
   quoteBy: ""
-
 
 ####### SLIDES ######
 
 presentation:
   enable: true
   title: First-day presentation
-  subtitle: All the important links are in the second page!
-
+  subtitle:
 
 ######################### Chapters ##########################
 chapters:
-  enable : true
-  title : "Learn! Hack! Discuss! Share!"
-  subtitle : "In full brainhack spirit, there will be:"
+  enable: true
+  title: "Learn! Hack! Discuss! Share!"
+  subtitle: "In full brainhack spirit, there will be:"
   chapter:
     # chapter preview loop
-    - title : "Training"
-      content : "Tutorials, resources, and hands-on sessions for neuroimaging tools and methods. From how-to-code (python! julia! version control!) to how-to-plot: we got you covered!"
+    - title: "Training"
+      content:
+        "Tutorials, resources, and hands-on sessions for neuroimaging tools and
+        methods. From how-to-code (python! julia! version control!) to
+        how-to-plot: we got you covered!"
 
     # chapter preview loop
-    - title : "Projects"
-      content : "Lots of free hacking time to tinker with a project of your choice. You can browse already submitted [projects](https://brainhack.org/global2020/projects/) and get ready to pitch your own during our first day "
-      
+    - title: "Projects"
+      content:
+        "Lots of free hacking time to tinker with a project of your choice. You
+        can browse already submitted
+        [projects](https://brainhack.org/global2020/projects/) and get ready to
+        pitch your own during our first day "
+
     # chapter preview loop
-    - title : "Unconferences"
-      content : "Short sessions to present your research or discuss topics of interest in an informal setting. We're planning on having debates on the future of scientific journals & conferences: bring your best questions and suggestions!"
-      
+    - title: "Unconferences"
+      content:
+        "Short sessions to present your research or discuss topics of interest
+        in an informal setting. We're planning on having debates on the future
+        of scientific journals & conferences: bring your best questions and
+        suggestions!"
+
     # chapter preview loop
-    - title : "Socials"
-      content : "Meet or check-in with experts and peers, share ideas, and plant the seeds of future collaborations. There's gonna be a gathertown space full of games and a trivia night! We'll miss the physical high-fives, but we'll be there for you!"
-      
+    - title: "Socials"
+      content:
+        "Meet or check-in with experts and peers, share ideas, and plant the
+        seeds of future collaborations. There's gonna be a gathertown space full
+        of games and a trivia night! We'll miss the physical high-fives, but
+        we'll be there for you!"
+
     # # chapter preview loop
     # - title : "Chapter 5"
     #   content : "Tips on scouting the city and making the most out of your three-month tourist visa."
-      
+
 ########################## Revews ###########################
 reviews:
-  enable : true
-  title : "Tutors & Instructors"
-  subtitle : "we are going to listen to, learn from, and chat with:"
+  enable: true
+  title: "Tutors & Instructors"
+  subtitle: "we are going to listen to, learn from, and chat with:"
   review:
     # review item loop
-    - name : "Yann Harel"
-      image : "images/client/yann.jpg" # image size 80*80 px
-      designation : "CoCoLab, Université de Montréal"
-      content : "**An overview of MNE-Python**, including a hands-on on common use cases and recommendations for designing a M/EEG analysis pipeline, from raw data to power and connectivity measures."
-    
+    - name: "Yann Harel"
+      image: "images/client/yann.jpg" # image size 80*80 px
+      designation: "CoCoLab, Université de Montréal"
+      content:
+        "**An overview of MNE-Python**, including a hands-on on common use cases
+        and recommendations for designing a M/EEG analysis pipeline, from raw
+        data to power and connectivity measures."
+
     # review item loop
-    - name : "Dorota Jarecka"
-      image : "images/client/dj.jpeg" # image size 80*80 px
-      designation : "Massachusetts Institute of Technology"
-      content : "**Introduction to Pydra - a new workflow engine for Nipype 2.0**"
-   
+    - name: "Dorota Jarecka"
+      image: "images/client/dj.jpeg" # image size 80*80 px
+      designation: "Massachusetts Institute of Technology"
+      content:
+        "**Introduction to Pydra - a new workflow engine for Nipype 2.0**"
+
     # review item loop
-    - name : "Danilo Bzdok"
-      image : "images/client/danilo.jpg" # image size 80*80 px
-      designation : "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University / Mila - Quebec AI Institute"
-      content : "**Machine-learning workflows for high-dimensional neuromaging datasets**"
-      
+    - name: "Danilo Bzdok"
+      image: "images/client/danilo.jpg" # image size 80*80 px
+      designation:
+        "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University
+        / Mila - Quebec AI Institute"
+      content:
+        "**Machine-learning workflows for high-dimensional neuromaging
+        datasets**"
+
       # review item loop
-    - name : "Ella Gabitov"
-      image : "images/client/eg.png" # while waiting for proper one
-      designation : " McConnell Brain Imaging Centre, Montreal Neurological Institute, McGill University"
-      content : "**Questioning our questions and models in neuroimaging**"   
-      
+    - name: "Ella Gabitov"
+      image: "images/client/eg.png" # while waiting for proper one
+      designation:
+        " McConnell Brain Imaging Centre, Montreal Neurological Institute,
+        McGill University"
+      content: "**Questioning our questions and models in neuroimaging**"
+
     # review item loop
-    - name : "Guillaume Dumas"
-      image : "images/client/gui.jpg" # image size 80*80 px
-      designation : "CHU Sainte-Justine / Dpt. of Psychiatry, Université de Montréal / Mila - Quebec AI Institute"
-      content : "**Introduction to Python & to Julia** and **Experimenting with reproducibility in bio/neuro-informatics**"
-      
+    - name: "Guillaume Dumas"
+      image: "images/client/gui.jpg" # image size 80*80 px
+      designation:
+        "CHU Sainte-Justine / Dpt. of Psychiatry, Université de Montréal / Mila
+        - Quebec AI Institute"
+      content:
+        "**Introduction to Python & to Julia** and **Experimenting with
+        reproducibility in bio/neuro-informatics**"
+
     # review item loop
-    - name : "Kendra Oudyk"
-      image : "images/client/kendra.jpeg" # image size 80*80 px
-      designation : "McGill University"
-      content : "**Git & Github Tutorial + Q&A**"
-      
+    - name: "Kendra Oudyk"
+      image: "images/client/kendra.jpeg" # image size 80*80 px
+      designation: "McGill University"
+      content: "**Git & Github Tutorial + Q&A**"
+
     # review item loop
-    - name : "Anibal Solon"
-      image : "images/client/ani.png" # image size 80*80 px
-      designation : "Computational Neuroimaging Lab, The University of Texas at Austin"
-      content : "**Git & Github Tutorial + Q&A**"
-      
+    - name: "Anibal Solon"
+      image: "images/client/ani.png" # image size 80*80 px
+      designation:
+        "Computational Neuroimaging Lab, The University of Texas at Austin"
+      content: "**Git & Github Tutorial + Q&A**"
+
     # review item loop
-    - name : "Sebastian Urchs"
-      image : "images/client/seb.JPG" # image size 80*80 px
-      designation : "Montreal Neurological Institute, Origami Lab / Douglas Research Centre, CoBra Lab"
-      content : "**Let the visualization do the work**: how interactive visualization can make your life easier and your figures pretty to look at."
-      
+    - name: "Sebastian Urchs"
+      image: "images/client/seb.JPG" # image size 80*80 px
+      designation:
+        "Montreal Neurological Institute, Origami Lab / Douglas Research Centre,
+        CoBra Lab"
+      content:
+        "**Let the visualization do the work**: how interactive visualization
+        can make your life easier and your figures pretty to look at."
+
     # review item loop
-    - name : "Loic Tetrel"
-      image : "images/client/loic.jpeg" # image size 80*80 px
-      designation : "SIMEXP lab, CRIUGM"
-      content : "**Hands on Neurolibre, a cloud-based and curated repository for jupyter notebooks in neuroscience.**"
-      
+    - name: "Loic Tetrel"
+      image: "images/client/loic.jpeg" # image size 80*80 px
+      designation: "SIMEXP lab, CRIUGM"
+      content:
+        "**Hands on Neurolibre, a cloud-based and curated repository for jupyter
+        notebooks in neuroscience.**"
+
     # review item loop
-    - name : "Jean-Baptiste Poline"
-      image : "images/client/jp.png" # image size 80*80 px
-      designation : "Montreal Neurological Institute, McGill University/ NeuroHub"
-      content : "**Questioning our questions and models in neuroimaging**"
-      
+    - name: "Jean-Baptiste Poline"
+      image: "images/client/jp.png" # image size 80*80 px
+      designation:
+        "Montreal Neurological Institute, McGill University/ NeuroHub"
+      content: "**Questioning our questions and models in neuroimaging**"
+
     # review item loop
-    - name : "Patrick Mineault"
-      image : "images/logo.png" # while waiting for proper one
-      designation : "tbd"
-      content : "**Test-driven development**"
-      
+    - name: "Patrick Mineault"
+      image: "images/logo.png" # while waiting for proper one
+      designation: "tbd"
+      content: "**Test-driven development**"
+
 #################################### device ################################
 devices:
-  enable : true
-  title : "Schedule"
-  content : "Find our schedule on Google Calendar [here](https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457)!"
- # image : "images/about/ipad.jpg"
- # content:  
-    # feature item loop
+  enable: true
+  title: "Schedule"
+  content:
+    "Find our schedule on Google Calendar
+    [here](https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457)!"
+  # image : "images/about/ipad.jpg"
+  # content:
+  # feature item loop
 #    - title : "Take a sneak peak insight"
 #      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
 #      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
-      
+
 #    # feature item loop
 #    - title : "Reporting & Analysis"
 #      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
@@ -193,11 +233,11 @@ devices:
 ##
 #
 
-  # button
- # button:
- #   enable : false
- #   label : "Spotify"
- #   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
+# button
+# button:
+#   enable : false
+#   label : "Spotify"
+#   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 ######################################## author #############################
 #playlist:
@@ -207,84 +247,82 @@ devices:
 #  #designation : ""
 #  content : "Checkout the Brainhack playlist for music to hack to"
 
-
-  # button
- # button:
- #   enable : false
- #   label : "Spotify"
- #   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
-
+# button
+# button:
+#   enable : false
+#   label : "Spotify"
+#   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
 ################################ Awards #####################################
 awards:
-  enable : true
-  title : "Brought to you by"
+  enable: true
+  title: "Brought to you by"
   award:
     # award item loop
-    - title : "Valentina Borghesani"
-      image : "images/client/vale.jpg"
-      
-    # award item loop
-    - title : "Samuel Guay"
-      image : "images/client/sam.png"
-      
-    # award item loop
-    - title : "Désirée Lussier"
-      image : "images/client/lussier.jpeg"
-      
-    # award item loop
-    - title : "And all the Brainhack Team!"
-      image : "images/logo.png"
+    - title: "Valentina Borghesani"
+      image: "images/client/vale.jpg"
 
+    # award item loop
+    - title: "Samuel Guay"
+      image: "images/client/sam.png"
+
+    # award item loop
+    - title: "Désirée Lussier"
+      image: "images/client/lussier.jpeg"
+
+    # award item loop
+    - title: "And all the Brainhack Team!"
+      image: "images/logo.png"
 
 ############################# Other books ###############################
 otherBooks:
-  enable : true
-  title : "Friends & sponsors"
-  subtitle : "We acknowlege the generous support of"
+  enable: true
+  title: "Friends & sponsors"
+  subtitle: "We acknowlege the generous support of"
   book:
     # books loop
-    - image : "images/client/udem.png"
-      link : "https://www.umontreal.ca/"
-      
+    - image: "images/client/udem.png"
+      link: "https://www.umontreal.ca/"
+
     # books loop
-    - image : "images/client/mcgiill.png"
-      link : "https://www.mcgill.ca/"
-      
+    - image: "images/client/mcgiill.png"
+      link: "https://www.mcgill.ca/"
+
     # books loop
-    - image : "images/client/concordia.png"
-      link : "https://www.concordia.ca/"
-      
+    - image: "images/client/concordia.png"
+      link: "https://www.concordia.ca/"
+
 ################################ Blog ###################################
 blog:
- enable : true
- title : "Projects"
- subtitle : "Feel free to join any project you are interested in!"
+  enable: true
+  title: "Projects"
+  subtitle: "Feel free to join any project you are interested in!"
 # blog post comes from 'content/blog'
-
-
-
 
 ################################# Contact ##############################
 contact:
-  enable : true
-  title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, feel free to reach out."
+  enable: true
+  title: "Contact Us"
+  subtitle:
+    "Whether you have questions or you would just like to say hello, feel free
+    to reach out."
   contactItem:
     # contact Item loop
-    - title : "Brainhack Global main website"
-      icon : "ti-world" # themify icon pack : https://themify.me/themify-icons
+    - title: "Brainhack Global main website"
+      icon: "ti-world" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "[brainhack.org/global2020](https://brainhack.org/global2020)"
-        
+        - listItem: "[brainhack.org/global2020](https://brainhack.org/global2020)"
+
     # contact Item loop
-    - title : "Email"
-      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+    - title: "Email"
+      icon: "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "info@brainhack.org"
-        
+        - listItem: "info@brainhack.org"
+
     # contact Item loop
-    - title : "Need help?"
-      icon : "ti-help" # themify icon pack : https://themify.me/themify-icons
+    - title: "Need help?"
+      icon: "ti-help" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "Read this [FAQ](https://brainhack.org/global2020/faq/) or use the [chat](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)"
+        - listItem:
+            "Read this [FAQ](https://brainhack.org/global2020/faq/) or use the
+            [chat](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)"
