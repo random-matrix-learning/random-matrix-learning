@@ -48,7 +48,7 @@ author = "Fabian Pedregosa, Courtney Paquette, Tom Trogdon, Jeffrey Pennington"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
-copyright = "&copy; Authors"
+copyright = "&copy; RMT+ML"
 
 # Preloader
 [params.preloader]
