@@ -7,7 +7,7 @@ banner:
   content: |
     In recent years, random matrix theory (RMT) has come to the forefront of learning theory as a tool to understand some of its most important challenges. From generalization of deep learning models to a precise analysis of optimization algorithms, RMT provides analytically tractable models.
  # price: "2020ish"
- # button: Know more
+  button: Know more
 
 ######################## Book Preview ##########################
 #preview:
@@ -58,54 +58,35 @@ banner:
 #       icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
 #       content: "Meet your old friend or make new ones."
 
-######################### Mattermost #############################
-# mattermost:
-#   enable: true
-#   quote:
-#     "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to
-#     connect with the community and start planning your project! Our channel name
-#     is
-#     [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
-#   quoteBy: ""
-
 ######################### Chapters ##########################
 chapters:
   enable: true
-  title: "Learn! Hack! Discuss! Share!"
-  subtitle: "In full brainhack spirit, there will be:"
+  title: "From RMT to ML applications in 4 steps."
+  subtitle: "We will present four talks around two cardinal aspects: 
+  (1) introducing tools common in RMT that can be applied to machine learning, 
+  and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory."
   chapter:
     # chapter preview loop
-    - title: "Part 1: Introduction "
+    - title: "Part 1: Motivating questions "
       content:
-        "XXXX"
+        "Dr. Pedregosa will illustrate how RMT can help us address questions on generalization, overparameterization, 
+        double descent, universality of halting time, and ultimately push us beyond the worst-case analysis."
 
     # chapter preview loop
-    - title: "Part 2: Stieltjes and R Transform"
+    - title: "Part 2: Introduction to random matrix theory"
       content:
-        "Lots of free hacking time to tinker with a project of your choice. You
-        can browse already submitted
-        [projects](https://brainhack.org/global2020/projects/) and get ready to
-        pitch your own during our first day "
+        "Dr. Paquette will introduce the concept of universality of eigenvalue distribution and 
+        provide example of concentration for the largest eigenvalue of a random matrix using the power method."
 
     # chapter preview loop
-    - title: "Unconferences"
+    - title: "Part 3: Generalization"
       content:
-        "Short sessions to present your research or discuss topics of interest
-        in an informal setting. We're planning on having debates on the future
-        of scientific journals & conferences: bring your best questions and
-        suggestions!"
+        "Dr. Pennington will walk us through random features model and models of double and triple descent."
 
     # chapter preview loop
-    - title: "Socials"
+    - title: "Part 4: Analysis of numerical algorithms"
       content:
-        "Meet or check-in with experts and peers, share ideas, and plant the
-        seeds of future collaborations. There's gonna be a gathertown space full
-        of games and a trivia night! We'll miss the physical high-fives, but
-        we'll be there for you!"
-
-    # # chapter preview loop
-    # - title : "Chapter 5"
-    #   content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+        "Dr. Trogdon will explore the topics of average-case analysis and acceleration, as well as concentration."
 
 ###### SLIDES ######
 
@@ -147,7 +128,7 @@ reviews:
 
     # review item loop
     - name: "Courtney Paquette"
-      image: "images/client/yann.jpeg" # image size 80*80 px
+      image: "images/ppp.jpeg" # image size 80*80 px
       designation: "Assistant professor at McGill University"
       content:
         "Dr. Paquette’s research broadly focuses on designing and analyzing algorithms 
@@ -167,7 +148,7 @@ reviews:
 
       # review item loop
     - name: "Jeffrey Pennington"
-      image: "images/client/yann.png" # image size 80*80 px
+      image: "images/jjj.jpeg" # image size 80*80 px
       designation: "Research scientist at Google Research Brain"
       content:
         "Dr. Pennington's current research interests center on the theory of deep learning, 
