@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://brainhackmtl.github.io/global2020/"
+baseURL = "https://random-matrix-learning.github.io"
 languageCode = "en-ca"
 title = "Random Matrix Theory and Machine Learning Tutorial"
 theme = ["trial"]
@@ -48,7 +48,7 @@ author = "Fabian Pedregosa, Courtney Paquette, Tom Trogdon, Jeffrey Pennington"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
-copyright = "&copy; Brainhack MTL"
+copyright = "&copy; Authors"
 
 # Preloader
 [params.preloader]
