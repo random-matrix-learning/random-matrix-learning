@@ -7,7 +7,7 @@ banner:
   content: |
     In recent years, random matrix theory (RMT) has come to the forefront of learning theory as a tool to understand some of its most important challenges. From generalization of deep learning models to a precise analysis of optimization algorithms, RMT provides analytically tractable models.
  # price: "2020ish"
- # button: Know more
+  button: Know more
 
 ######################## Book Preview ##########################
 #preview:
@@ -58,20 +58,10 @@ banner:
 #       icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
 #       content: "Meet your old friend or make new ones."
 
-######################### Mattermost #############################
-# mattermost:
-#   enable: true
-#   quote:
-#     "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to
-#     connect with the community and start planning your project! Our channel name
-#     is
-#     [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
-#   quoteBy: ""
-
 ######################### Chapters ##########################
 chapters:
   enable: true
-  title: "From random matrix theory to machine learning applications in 4 steps."
+  title: "From RMT to ML applications in 4 steps."
   subtitle: "We will present four talks around two cardinal aspects: 
   (1) introducing tools common in RMT that can be applied to machine learning, 
   and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory."
