@@ -137,8 +137,8 @@ reviews:
   review:
     # review item loop
     - name: "Fabian Pedregosa"
-      image: "images/client/yann.jpg" # image size 80*80 px
-      designation: "Google Research Brain"
+      image: "images/fff.jpeg" # image size 80*80 px
+      designation: "Research scientist at Google Research Brain"
       content:
         "Dr. Pedregosa's research has focused in the last years in developing an
         average-case analysis of optimization algorithms using techniques from random matrix theory. 
@@ -157,9 +157,8 @@ reviews:
 
     # review item loop
     - name: "Thomas Trogdon"
-      image: "images/client/yann.jpg" # image size 80*80 px
-      designation:
-        "Associate professor of applied mathematics at University of Washington"
+      image: "images/ttt.jpeg" # image size 80*80 px
+      designation: "Associate professor at University of Washington"
       content:
          "Dr. Trogdon’s work focuses on connections between classical algorithms
          from numerical linear algebra and random matrix theory. He is a core member of a
@@ -169,8 +168,7 @@ reviews:
       # review item loop
     - name: "Jeffrey Pennington"
       image: "images/client/yann.png" # image size 80*80 px
-      designation:
-        "Google Research Brain"
+      designation: "Research scientist at Google Research Brain"
       content:
         "Dr. Pennington's current research interests center on the theory of deep learning, 
         and include topics such as random matrix theory and generalization in high dimensions, 
