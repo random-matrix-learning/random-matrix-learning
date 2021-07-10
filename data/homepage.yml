@@ -138,33 +138,44 @@ reviews:
     # review item loop
     - name: "Fabian Pedregosa"
       image: "images/client/yann.jpg" # image size 80*80 px
-      designation: "Google Brain Montreal"
+      designation: "Google Research Brain"
       content:
-        "history 1"
+        "Dr. Pedregosa's research has focused in the last years in developing an
+        average-case analysis of optimization algorithms using techniques from random matrix theory. 
+        Previously, he has been one of the founding members of the scikit-learn machine learning library. 
+        His blog contains several posts on introductory optimization concepts and he has given invited lectures at McGill, UC Berkeley and ENSAE."
 
     # review item loop
     - name: "Courtney Paquette"
       image: "images/client/yann.jpeg" # image size 80*80 px
-      designation: "McGill University & Google Brain Montreal"
+      designation: "Assistant professor at McGill University"
       content:
-        "history 1"
+        "Dr. Paquette’s research broadly focuses on designing and analyzing algorithms 
+        for large-scale optimization problems, motivated by applications in data science. 
+        Her recent work has focused on average-case complexity that combined aspects of optimization and random matrix theory. 
+        She is a CIFAR Canada AI chair with the Quebec AI institute (MILA)."
 
     # review item loop
     - name: "Thomas Trogdon"
       image: "images/client/yann.jpg" # image size 80*80 px
       designation:
-        "affiliation"
+        "Associate professor of applied mathematics at University of Washington"
       content:
-        "topic"
+         "Dr. Trogdon’s work focuses on connections between classical algorithms
+         from numerical linear algebra and random matrix theory. He is a core member of a
+         group of researchers that have, first, discovered that the runtimes of algorithms exhibit
+         universal distributions, and second, began rigorously establishing theorems."
 
       # review item loop
     - name: "Jeffrey Pennington"
-      image: "images/client/yann.png" # while waiting for proper one
+      image: "images/client/yann.png" # image size 80*80 px
       designation:
-        "affiliation"
+        "Google Research Brain"
       content:
-        "topic"
-
+        "Dr. Pennington's current research interests center on the theory of deep learning, 
+        and include topics such as random matrix theory and generalization in high dimensions, 
+        the role of overparameterization, wide neural networks and their corresponding kernels, 
+        the dynamics of learning, and the geometry of high-dimensional loss surfaces."
 
 # #################################### device ################################
 # devices:
@@ -262,21 +273,21 @@ contact:
     to reach out."
   contactItem:
     # contact Item loop
-    - title: "Brainhack Global main website"
+    - title: "ICML 2021 main website"
       icon: "ti-world" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem: "[brainhack.org/global2020](https://brainhack.org/global2020)"
+        - listItem: "[icml.cc](https://icml.cc/)"
 
     # contact Item loop
     - title: "Email"
       icon: "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem: "info@brainhack.org"
+        - listItem: "pedregosa [at] google [dot] com "
 
     # contact Item loop
     - title: "Need help?"
       icon: "ti-help" # themify icon pack : https://themify.me/themify-icons
       list:
         - listItem:
-            "Read this [FAQ](https://brainhack.org/global2020/faq/) or use the
-            [chat](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)"
+            "Read this [FAQ](https://icml.cc/FAQ) or contact the ICML
+            [help desk](https://icml.cc/Help/Contact)"
