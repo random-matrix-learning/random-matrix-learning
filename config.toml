@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://brainhackmtl.github.io/global2020/"
 languageCode = "en-ca"
-title = "Brainhack 2020ish"
+title = "Random Matrix Theory and Machine Learning Tutorial"
 theme = ["trial"]
 summaryLength = "10"
 paginate = 6
@@ -10,26 +10,22 @@ paginate = 6
   
 ############################## navigation ###############################
 [menu]
-    
-  [[menu.main]]
-  name = "Mattermost"
-  URL = "mattermost"
-  weight = 1
+
   
   [[menu.main]]
   name = "About"
   URL = "chapters"
-  weight = 2
+  weight = 1
   
   [[menu.main]]
   name = "Instructors"
   URL = "reviews"
-  weight = 3
+  weight = 2
   
   [[menu.main]]
   name = "Schedule"
   URL = "devices"
-  weight = 4
+  weight = 3
     
   [[menu.main]]
   name = "Projects"
@@ -71,7 +67,7 @@ expire_days = 2
   
 ############################# Footer ########################
 [params.footer]
-content = "Brainhack MTL is run by volunteers for neuroscience-inclined people."
+content = ""
 
 
 ############################# post share ###################

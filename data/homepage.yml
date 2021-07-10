@@ -1,15 +1,13 @@
 ########################## Banner #############################
 banner:
   enable: true
-  writter: "Montreal Edition of"
-  title: "Brainhack Global"
+  writter: "ICML 2021 tutorial on"
+  title: "Random Matrix Theory and Machine Learning"
   image: "images/logo.png"
   content: |
-    Brainhack is a collaborative event that focuses on the open sharing of ideas, code, and data. 
-    From **February 15th to 26th**, we will meet virtually in Montreal to learn from each ther, 
-    work collaboratively on cool projects, and plant the seeds of future adventures (whether online or in person!). **#BHMTL2020ish**
-  price: "2020ish"
-  button: Know more
+    In recent years, random matrix theory (RMT) has come to the forefront of learning theory as a tool to understand some of its most important challenges. From generalization of deep learning models to a precise analysis of optimization algorithms, RMT provides analytically tractable models.
+ # price: "2020ish"
+ # button: Know more
 
 ######################## Book Preview ##########################
 #preview:
@@ -42,40 +40,33 @@ banner:
 #    link : "#"
 
 ########################## About ##############################
-about:
-  enable: true
-  aboutItem:
-    # service item loop
-    - title: "Experience"
-      icon: "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
-      content: "Brainhack is transformative."
+# about:
+#   enable: true
+#   aboutItem:
+#     # service item loop
+#     - title: "Experience"
+#       icon: "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+#       content: "Brainhack is transformative."
 
-    # service item loop
-    - title: "Code"
-      icon: "ti-desktop" # themify icon pack : https://themify.me/themify-icons
-      content: "Eat, code, eat, code, sleep."
+#     # service item loop
+#     - title: "Code"
+#       icon: "ti-desktop" # themify icon pack : https://themify.me/themify-icons
+#       content: "Eat, code, eat, code, sleep."
 
-    # service item loop
-    - title: "Network"
-      icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
-      content: "Meet your old friend or make new ones."
+#     # service item loop
+#     - title: "Network"
+#       icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
+#       content: "Meet your old friend or make new ones."
 
 ######################### Mattermost #############################
-mattermost:
-  enable: true
-  quote:
-    "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to
-    connect with the community and start planning your project! Our channel name
-    is
-    [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
-  quoteBy: ""
-
-####### SLIDES ######
-
-presentation:
-  enable: true
-  title: First-day presentation
-  subtitle:
+# mattermost:
+#   enable: true
+#   quote:
+#     "Join us on the [Brainhack Mattermost](https://mattermost.brainhack.org) to
+#     connect with the community and start planning your project! Our channel name
+#     is
+#     [#brainhack-mtl](https://mattermost.brainhack.org/brainhack/channels/brainhack-mtl-2021)."
+#   quoteBy: ""
 
 ######################### Chapters ##########################
 chapters:
@@ -84,14 +75,12 @@ chapters:
   subtitle: "In full brainhack spirit, there will be:"
   chapter:
     # chapter preview loop
-    - title: "Training"
+    - title: "Part 1: Introduction "
       content:
-        "Tutorials, resources, and hands-on sessions for neuroimaging tools and
-        methods. From how-to-code (python! julia! version control!) to
-        how-to-plot: we got you covered!"
+        "XXXX"
 
     # chapter preview loop
-    - title: "Projects"
+    - title: "Part 2: Stieltjes and R Transform"
       content:
         "Lots of free hacking time to tinker with a project of your choice. You
         can browse already submitted
@@ -117,6 +106,28 @@ chapters:
     # # chapter preview loop
     # - title : "Chapter 5"
     #   content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+###### SLIDES ######
+
+presentation1:
+  enable: true
+  title: First-day presentation
+  subtitle: g
+
+presentation2:
+  enable: true
+  title: First-day presentation 2
+  subtitle: g
+ 
+presentation3:
+  enable: true
+  title: First-day presentation 3
+  subtitle: g
+
+presentation4:
+  enable: true
+  title: First-day presentation 4
+  subtitle: g
 
 ########################## Revews ###########################
 reviews:
@@ -212,13 +223,13 @@ reviews:
       designation: "tbd"
       content: "**Test-driven development**"
 
-#################################### device ################################
-devices:
-  enable: true
-  title: "Schedule"
-  content:
-    "Find our schedule on Google Calendar
-    [here](https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457)!"
+# #################################### device ################################
+# devices:
+#   enable: true
+#   title: "Schedule"
+#   content:
+#     "Find our schedule on Google Calendar
+#     [here](https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FToronto&src=dTM2ZGgydWRsODdjNmFtYXMyb3Rha2RobmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23AD1457)!"
   # image : "images/about/ipad.jpg"
   # content:
   # feature item loop
@@ -253,51 +264,51 @@ devices:
 #   label : "Spotify"
 #   link : "<iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>"
 
-################################ Awards #####################################
-awards:
-  enable: true
-  title: "Brought to you by"
-  award:
-    # award item loop
-    - title: "Valentina Borghesani"
-      image: "images/client/vale.jpg"
+# ################################ Awards #####################################
+# awards:
+#   enable: true
+#   title: "Brought to you by"
+#   award:
+#     # award item loop
+#     - title: "Valentina Borghesani"
+#       image: "images/client/vale.jpg"
 
-    # award item loop
-    - title: "Samuel Guay"
-      image: "images/client/sam.png"
+#     # award item loop
+#     - title: "Samuel Guay"
+#       image: "images/client/sam.png"
 
-    # award item loop
-    - title: "Désirée Lussier"
-      image: "images/client/lussier.jpeg"
+#     # award item loop
+#     - title: "Désirée Lussier"
+#       image: "images/client/lussier.jpeg"
 
-    # award item loop
-    - title: "And all the Brainhack Team!"
-      image: "images/logo.png"
+#     # award item loop
+#     - title: "And all the Brainhack Team!"
+#       image: "images/logo.png"
 
-############################# Other books ###############################
-otherBooks:
-  enable: true
-  title: "Friends & sponsors"
-  subtitle: "We acknowlege the generous support of"
-  book:
-    # books loop
-    - image: "images/client/udem.png"
-      link: "https://www.umontreal.ca/"
+# ############################# Other books ###############################
+# otherBooks:
+#   enable: true
+#   title: "Friends & sponsors"
+#   subtitle: "We acknowlege the generous support of"
+#   book:
+#     # books loop
+#     - image: "images/client/udem.png"
+#       link: "https://www.umontreal.ca/"
 
-    # books loop
-    - image: "images/client/mcgiill.png"
-      link: "https://www.mcgill.ca/"
+#     # books loop
+#     - image: "images/client/mcgiill.png"
+#       link: "https://www.mcgill.ca/"
 
-    # books loop
-    - image: "images/client/concordia.png"
-      link: "https://www.concordia.ca/"
+#     # books loop
+#     - image: "images/client/concordia.png"
+#       link: "https://www.concordia.ca/"
 
-################################ Blog ###################################
-blog:
-  enable: true
-  title: "Projects"
-  subtitle: "Feel free to join any project you are interested in!"
-# blog post comes from 'content/blog'
+# # ################################ Blog ###################################
+# blog:
+#   enable: true
+#   title: "Projects"
+#   subtitle: "Feel free to join any project you are interested in!"
+# # blog post comes from 'content/blog'
 
 ################################# Contact ##############################
 contact:

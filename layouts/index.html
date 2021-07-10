@@ -123,10 +123,28 @@
 
 
 <!-- Chapter -->
-{{ if .Site.Data.homepage.presentation.enable }}
-{{ with .Site.Data.homepage.presentation }}
+{{ if .Site.Data.homepage.presentation1.enable }}
+{{ with .Site.Data.homepage.presentation1 }}
+<section class="section chapter" id="presentation1">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-heading">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2yrz0jQXg7rbJAc6rC_diW1sQvEdoR4fD7UMNkjy_P_2NKV-h36heZpT6r5bret0iyGG-3CB0w55K/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
 
-<section class="section chapter" id="presentation">
+
+{{ if .Site.Data.homepage.presentation2.enable }}
+{{ with .Site.Data.homepage.presentation2 }}
+<section class="section chapter" id="presentation2">
   <div class="container">
     
     <div class="row">
@@ -138,10 +156,49 @@
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2yrz0jQXg7rbJAc6rC_diW1sQvEdoR4fD7UMNkjy_P_2NKV-h36heZpT6r5bret0iyGG-3CB0w55K/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
     </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if .Site.Data.homepage.presentation3.enable }}
+{{ with .Site.Data.homepage.presentation3 }}
+<section class="section chapter" id="presentation3">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-heading">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2yrz0jQXg7rbJAc6rC_diW1sQvEdoR4fD7UMNkjy_P_2NKV-h36heZpT6r5bret0iyGG-3CB0w55K/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
     </div>
-  </section>
-  {{ end }}
-  {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ if .Site.Data.homepage.presentation4.enable }}
+{{ with .Site.Data.homepage.presentation4 }}
+<section class="section chapter" id="presentation4">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-heading">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ2yrz0jQXg7rbJAc6rC_diW1sQvEdoR4fD7UMNkjy_P_2NKV-h36heZpT6r5bret0iyGG-3CB0w55K/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}  
+
 
 <!-- Chapter -->
 {{ if .Site.Data.homepage.chapters.enable }}
@@ -158,9 +215,9 @@
 
         
       </div>
-      <div class="col-lg-6 text-center">
+      <!-- <div class="col-lg-6 text-center">
       <iframe src="https://open.spotify.com/embed/playlist/1Bl4wHCS7C6FpWockoXoby" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </div>
+      </div> -->
     </div>
     <div class="row">
       {{ range .chapter }}
@@ -357,15 +414,6 @@
 </section>
 {{ end }}
 {{ end }}
-<section class="section blog-home border-top" id="register">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 mx-auto">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdcAE72Fls3nSkEjU5F6DgHuJYZVol7_1BSyG6d0jPDgHDS3Q/viewform?embedded=true" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Latest blog -->
 {{ if .Site.Data.homepage.blog.enable }}
