@@ -43,8 +43,8 @@ paginate = 6
 logo = ""
 home = "Home"
 # Meta data
-description = "Brainhack MTL is happening!!!"
-author = "Brainhack MTL"
+description = "ICML 2021 tutorial on Random Matrix Theory and Machine Learning"
+author = "Fabian Pedregosa, Courtney Paquette, Tom Trogdon, Jeffrey Pennington"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
@@ -57,12 +57,12 @@ preloader = "" # use .png , .svg or .gif format
 
 # Navigation get start button
 [params.navButton]
-enable = true
+enable = false
 buttontext = "Register"
 
 # cookies
 [params.cookies]
-enable = true
+enable = false
 expire_days = 2
   
 ############################# Footer ########################
