@@ -3,7 +3,7 @@ banner:
   enable: true
   writter: "ICML 2021 tutorial on"
   title: "Random Matrix Theory and Machine Learning"
-  image: "images/logo.png"
+  #image: "images/logo.png"
   content: |
     In recent years, random matrix theory (RMT) has come to the forefront of learning theory as a tool to understand some of its most important challenges. From generalization of deep learning models to a precise analysis of optimization algorithms, RMT provides analytically tractable models.
  # price: "2020ish"
@@ -132,96 +132,39 @@ presentation4:
 ########################## Revews ###########################
 reviews:
   enable: true
-  title: "Tutors & Instructors"
-  subtitle: "we are going to listen to, learn from, and chat with:"
+  title: "Instructors"
+  subtitle: "The field experts that will guide you through random matrix theory in machine learning are"
   review:
     # review item loop
-    - name: "Yann Harel"
+    - name: "Fabian Pedregosa"
       image: "images/client/yann.jpg" # image size 80*80 px
-      designation: "CoCoLab, Université de Montréal"
+      designation: "Google Brain Montreal"
       content:
-        "**An overview of MNE-Python**, including a hands-on on common use cases
-        and recommendations for designing a M/EEG analysis pipeline, from raw
-        data to power and connectivity measures."
+        "history 1"
 
     # review item loop
-    - name: "Dorota Jarecka"
-      image: "images/client/dj.jpeg" # image size 80*80 px
-      designation: "Massachusetts Institute of Technology"
+    - name: "Courtney Paquette"
+      image: "images/client/yann.jpeg" # image size 80*80 px
+      designation: "McGill University & Google Brain Montreal"
       content:
-        "**Introduction to Pydra - a new workflow engine for Nipype 2.0**"
+        "history 1"
 
     # review item loop
-    - name: "Danilo Bzdok"
-      image: "images/client/danilo.jpg" # image size 80*80 px
+    - name: "Thomas Trogdon"
+      image: "images/client/yann.jpg" # image size 80*80 px
       designation:
-        "Dpt. of Biomedical Engineering, Faculty of Medicine, McGill University
-        / Mila - Quebec AI Institute"
+        "affiliation"
       content:
-        "**Machine-learning workflows for high-dimensional neuromaging
-        datasets**"
+        "topic"
 
       # review item loop
-    - name: "Ella Gabitov"
-      image: "images/client/eg.png" # while waiting for proper one
+    - name: "Jeffrey Pennington"
+      image: "images/client/yann.png" # while waiting for proper one
       designation:
-        " McConnell Brain Imaging Centre, Montreal Neurological Institute,
-        McGill University"
-      content: "**Questioning our questions and models in neuroimaging**"
-
-    # review item loop
-    - name: "Guillaume Dumas"
-      image: "images/client/gui.jpg" # image size 80*80 px
-      designation:
-        "CHU Sainte-Justine / Dpt. of Psychiatry, Université de Montréal / Mila
-        - Quebec AI Institute"
+        "affiliation"
       content:
-        "**Introduction to Python & to Julia** and **Experimenting with
-        reproducibility in bio/neuro-informatics**"
+        "topic"
 
-    # review item loop
-    - name: "Kendra Oudyk"
-      image: "images/client/kendra.jpeg" # image size 80*80 px
-      designation: "McGill University"
-      content: "**Git & Github Tutorial + Q&A**"
-
-    # review item loop
-    - name: "Anibal Solon"
-      image: "images/client/ani.png" # image size 80*80 px
-      designation:
-        "Computational Neuroimaging Lab, The University of Texas at Austin"
-      content: "**Git & Github Tutorial + Q&A**"
-
-    # review item loop
-    - name: "Sebastian Urchs"
-      image: "images/client/seb.JPG" # image size 80*80 px
-      designation:
-        "Montreal Neurological Institute, Origami Lab / Douglas Research Centre,
-        CoBra Lab"
-      content:
-        "**Let the visualization do the work**: how interactive visualization
-        can make your life easier and your figures pretty to look at."
-
-    # review item loop
-    - name: "Loic Tetrel"
-      image: "images/client/loic.jpeg" # image size 80*80 px
-      designation: "SIMEXP lab, CRIUGM"
-      content:
-        "**Hands on Neurolibre, a cloud-based and curated repository for jupyter
-        notebooks in neuroscience.**"
-
-    # review item loop
-    - name: "Jean-Baptiste Poline"
-      image: "images/client/jp.png" # image size 80*80 px
-      designation:
-        "Montreal Neurological Institute, McGill University/ NeuroHub"
-      content: "**Questioning our questions and models in neuroimaging**"
-
-    # review item loop
-    - name: "Patrick Mineault"
-      image: "images/logo.png" # while waiting for proper one
-      designation: "tbd"
-      content: "**Test-driven development**"
 
 # #################################### device ################################
 # devices:
