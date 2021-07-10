@@ -22,15 +22,15 @@ paginate = 6
   URL = "reviews"
   weight = 2
   
-  [[menu.main]]
-  name = "Schedule"
-  URL = "devices"
-  weight = 3
+  #[[menu.main]]
+  #name = "Schedule"
+  #URL = "devices"
+  #weight = 3
     
-  [[menu.main]]
-  name = "Projects"
-  URL = "projects"
-  weight = 4
+  #[[menu.main]]
+  #name = "Projects"
+  #URL = "projects"
+  #weight = 4
 
   [[menu.main]]
   name = "Contact"
