@@ -61,7 +61,7 @@ banner:
 ######################### Chapters ##########################
 chapters:
   enable: true
-  title: "From RMT to ML applications in 4 steps."
+  title: "Random Matrix Theory in Machine Learning tutorial."
   subtitle: "We will present four talks around two cardinal aspects: 
   (1) introducing tools common in RMT that can be applied to machine learning, 
   and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory."
