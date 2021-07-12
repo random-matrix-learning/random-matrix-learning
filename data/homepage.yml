@@ -69,24 +69,26 @@ chapters:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "Fabian Pedregosa will illustrate how RMT can help us address questions on generalization, overparameterization, 
-        double descent, universality of halting time, and ultimately push us beyond the worst-case analysis."
+        "Fabian Pedregosa will discuss applications of Random Matrix Theory  to Machine Learning
+        and introduce two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble
+        and Wishart matrices. Through experiments, he will illustrate some of the key results of these ensembles"
 
     # chapter preview loop
     - title: "Part 2: Introduction to random matrix theory, the Stieltjes and R transform"
       content:
-        "Courtney Paquette will introduce the concept of universality of eigenvalue distribution and 
-        provide example of concentration for the largest eigenvalue of a random matrix using the power method."
+        "Courtney Paquette will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform.
+        Through experiments, she will illustrate how to construct increasingly complex random matrix theory models of real datasets."
 
     # chapter preview loop
-    - title: "Part 3: Generalization"
-      content:
-        "Jeffrey Pennington will walk us through random features model and models of double and triple descent."
-
-    # chapter preview loop
-    - title: "Part 4: Analysis of numerical algorithms"
+    - title: "Part 3: Analysis of numerical algorithms"
       content:
         "Tom Trogdon will explore the topics of average-case analysis and acceleration, as well as concentration."
+
+    # chapter preview loop
+    - title: "Part 4: The Mystery of Generalization: why Does Deep Learning Work?"
+      content:
+        "Jeffrey Pennington will walk us through models of generalization in Deep Neural Networks. With these models
+        we can study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent."
 
 ###### SLIDES ######
 
