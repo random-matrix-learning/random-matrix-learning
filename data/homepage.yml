@@ -67,26 +67,26 @@ chapters:
   and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory."
   chapter:
     # chapter preview loop
-    - title: "Part 1: Motivating questions "
+    - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "Dr. Pedregosa will illustrate how RMT can help us address questions on generalization, overparameterization, 
+        "Fabian Pedregosa will illustrate how RMT can help us address questions on generalization, overparameterization, 
         double descent, universality of halting time, and ultimately push us beyond the worst-case analysis."
 
     # chapter preview loop
-    - title: "Part 2: Introduction to random matrix theory"
+    - title: "Part 2: Introduction to random matrix theory, the Stieltjes and R transform"
       content:
-        "Dr. Paquette will introduce the concept of universality of eigenvalue distribution and 
+        "Courtney Paquette will introduce the concept of universality of eigenvalue distribution and 
         provide example of concentration for the largest eigenvalue of a random matrix using the power method."
 
     # chapter preview loop
     - title: "Part 3: Generalization"
       content:
-        "Dr. Pennington will walk us through random features model and models of double and triple descent."
+        "Jeffrey Pennington will walk us through random features model and models of double and triple descent."
 
     # chapter preview loop
     - title: "Part 4: Analysis of numerical algorithms"
       content:
-        "Dr. Trogdon will explore the topics of average-case analysis and acceleration, as well as concentration."
+        "Tom Trogdon will explore the topics of average-case analysis and acceleration, as well as concentration."
 
 ###### SLIDES ######
 
@@ -121,17 +121,17 @@ reviews:
       image: "images/fff.jpeg" # image size 80*80 px
       designation: "Research scientist at Google Research Brain"
       content:
-        "Dr. Pedregosa's research has focused in the last years in developing an
+        "Fabian Pedregosa's research has focused in the last years in developing an
         average-case analysis of optimization algorithms using techniques from random matrix theory. 
         Previously, he has done research in projection-free and asynchronous optimizationbeen. He is also
-        one of the founding members of the scikit-learn machine learning library. <a href='http://fa.bianp.net>Webpage</a>."
+        one of the founding members of the scikit-learn machine learning library. [Webpage](http://fa.bianp.net)."
 
     # review item loop
     - name: "Courtney Paquette"
       image: "images/ppp.jpeg" # image size 80*80 px
       designation: "Assistant professor at McGill University"
       content:
-        "Dr. Paquette’s research broadly focuses on designing and analyzing algorithms 
+        "Courtney Paquette’s research broadly focuses on designing and analyzing algorithms 
         for large-scale optimization problems, motivated by applications in data science. 
         Her recent work has focused on average-case complexity that combined aspects of optimization and random matrix theory. 
         She is a CIFAR Canada AI chair with the Quebec AI institute (MILA)."
@@ -141,7 +141,7 @@ reviews:
       image: "images/ttt.jpeg" # image size 80*80 px
       designation: "Associate professor at University of Washington"
       content:
-         "Dr. Trogdon’s work focuses on connections between classical algorithms
+         "Tom Trogdon’s work focuses on connections between classical algorithms
          from numerical linear algebra and random matrix theory. He is a core member of a
          group of researchers that have, first, discovered that the runtimes of algorithms exhibit
          universal distributions, and second, began rigorously establishing theorems."
@@ -151,7 +151,7 @@ reviews:
       image: "images/jjj.jpeg" # image size 80*80 px
       designation: "Research scientist at Google Research Brain"
       content:
-        "Dr. Pennington's current research interests center on the theory of deep learning, 
+        "Jeffrey Pennington's current research interests center on the theory of deep learning, 
         and include topics such as random matrix theory and generalization in high dimensions, 
         the role of overparameterization, wide neural networks and their corresponding kernels, 
         the dynamics of learning, and the geometry of high-dimensional loss surfaces."
