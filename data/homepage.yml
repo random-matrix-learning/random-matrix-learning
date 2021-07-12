@@ -257,11 +257,11 @@ contact:
       list:
         - listItem: "[icml.cc](https://icml.cc/)"
 
-    # contact Item loop
-    - title: "Email"
-      icon: "ti-email" # themify icon pack : https://themify.me/themify-icons
-      list:
-        - listItem: "pedregosa [at] google [dot] com "
+#     # contact Item loop
+#     - title: "Email"
+#       icon: "ti-email" # themify icon pack : https://themify.me/themify-icons
+#       list:
+#         - listItem: "pedregosa [at] google [dot] com "
 
     # contact Item loop
     - title: "Need help?"
