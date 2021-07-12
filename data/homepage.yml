@@ -92,23 +92,23 @@ chapters:
 
 presentation1:
   enable: true
-  title: First-day presentation
-  subtitle: g
+  title: Part 1
+  subtitle: Introduction, Classical Ensembles
 
 presentation2:
   enable: true
-  title: First-day presentation 2
-  subtitle: g
+  title: Part 2
+  subtitle: Stieltjes and R transforms
  
 presentation3:
   enable: true
-  title: First-day presentation 3
-  subtitle: g
+  title: Part 3
+  subtitle: Analysis of Numerical Algorithms
 
 presentation4:
   enable: true
-  title: First-day presentation 4
-  subtitle: g
+  title: Part 4
+  subtitle: Models for Generalization
 
 ########################## Revews ###########################
 reviews:
@@ -123,8 +123,8 @@ reviews:
       content:
         "Dr. Pedregosa's research has focused in the last years in developing an
         average-case analysis of optimization algorithms using techniques from random matrix theory. 
-        Previously, he has been one of the founding members of the scikit-learn machine learning library. 
-        His blog contains several posts on introductory optimization concepts and he has given invited lectures at McGill, UC Berkeley and ENSAE."
+        Previously, he has done research in projection-free and asynchronous optimizationbeen. He is also
+        one of the founding members of the scikit-learn machine learning library. <a href='http://fa.bianp.net>Webpage</a>."
 
     # review item loop
     - name: "Courtney Paquette"
