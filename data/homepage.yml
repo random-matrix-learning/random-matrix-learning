@@ -9,54 +9,6 @@ banner:
  # price: "2020ish"
   button: Know more
 
-######################## Book Preview ##########################
-#preview:
-#  enable : false
-#  pagePreview:
-#    # page preview loop
-#    - image : "images/about/book_page.png"
-#    - image : "images/about/book_page2.png"
-#    - image : "images/about/book_page.png"
-#
-#  title : "Look Inside the book"
-#  content : "
-#  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
-#
-#
-#  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
-#  "
-#
-#  inside:
-#    # book inside item loop
-#    - insideItem : "7 Chapter"
-#    - insideItem : "Explained Details"
-#    - insideItem : "Clear Understanding"
-#    - insideItem : "Best practices"
-#
-# button
-#  button:
-#    enable : true
-#    label : "Purchase on Amazon"
-#    link : "#"
-
-########################## About ##############################
-# about:
-#   enable: true
-#   aboutItem:
-#     # service item loop
-#     - title: "Experience"
-#       icon: "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
-#       content: "Brainhack is transformative."
-
-#     # service item loop
-#     - title: "Code"
-#       icon: "ti-desktop" # themify icon pack : https://themify.me/themify-icons
-#       content: "Eat, code, eat, code, sleep."
-
-#     # service item loop
-#     - title: "Network"
-#       icon: "ti-rss-alt" # themify icon pack : https://themify.me/themify-icons
-#       content: "Meet your old friend or make new ones."
 
 ######################### Chapters ##########################
 chapters:
@@ -95,14 +47,19 @@ chapters:
 presentation1:
   enable: true
   title: Part 1. Introduction and Classical Random Matrix Theory Ensembles
-  subtitle: This section introduces two of the classical Random Matrix Theory ensembles, the Gaussian Orthogonal Ensemble
-        and Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions in random matrix theory such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality.
+  subtitle: "This section introduces two of the classical Random Matrix Theory ensembles, the Gaussian Orthogonal Ensembleand Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions in random matrix theory such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality."
+  
+  links: "[**Slides PDF**]() | [**Slides source code**]() |  [**Experiments (Colab)**]() "
+
+
+
 
 
 presentation2:
   enable: true
-  title: Part 2. Introduction to random matrix theory, the Stieltjes and R transform
-  subtitle: Stieltjes and R transforms
+  title: "Part 2. Introduction to random matrix theory: the Stieltjes and R transform"
+  subtitle: "This section introduces some core proof techniques in random matrix theory: the Stieltjes and R transform.
+        Through experiments, we will illustrate how to use these objects to compute spectral properties of increasingly complex random matrix ensembles. We'll also discuss some recent topics in random matrix theory such as freeness."
  
 presentation3:
   enable: true
@@ -111,7 +68,7 @@ presentation3:
 
 presentation4:
   enable: true
-  title: Part 4
+  title: "Part 4. The Mystery of Generalization: why Does Deep Learning Work?"
   subtitle: Models for Generalization
 
 
