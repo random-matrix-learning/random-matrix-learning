@@ -69,20 +69,20 @@ chapters:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "Fabian Pedregosa will discuss applications of Random Matrix Theory  to Machine Learning
+        "In this section we'll discuss applications of Random Matrix Theory  to Machine Learning
         and introduce two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble
-        and Wishart matrices. Through experiments, he will illustrate some of the key results of these ensembles"
+        and Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality."
 
     # chapter preview loop
     - title: "Part 2: Introduction to random matrix theory, the Stieltjes and R transform"
       content:
-        "Courtney Paquette will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform.
-        Through experiments, she will illustrate how to construct increasingly complex random matrix theory models of real datasets."
+        "In this section we'll will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform.
+        Through experiments, we will illustrate how to construct increasingly complex random matrix theory models of real datasets. We'll also discuss some recent topics in random matrix theory such as freeness."
 
     # chapter preview loop
     - title: "Part 3: Analysis of numerical algorithms"
       content:
-        "Tom Trogdon will explore the topics of average-case analysis and acceleration, as well as concentration."
+        "Tom Trogdon will discuss applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality."
 
     # chapter preview loop
     - title: "Part 4: The Mystery of Generalization: why Does Deep Learning Work?"
@@ -94,23 +94,32 @@ chapters:
 
 presentation1:
   enable: true
-  title: Part 1
-  subtitle: Introduction, Classical Ensembles
+  title: Part 1. Introduction and Classical Random Matrix Theory Ensembles
+  subtitle: This section introduces two of the classical Random Matrix Theory ensembles, the Gaussian Orthogonal Ensemble
+        and Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions in random matrix theory such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality.
+
 
 presentation2:
   enable: true
-  title: Part 2
+  title: Part 2. Introduction to random matrix theory, the Stieltjes and R transform
   subtitle: Stieltjes and R transforms
  
 presentation3:
   enable: true
-  title: Part 3
+  title: Part 3. Analysis of numerical algorithms
   subtitle: Analysis of Numerical Algorithms
 
 presentation4:
   enable: true
   title: Part 4
   subtitle: Models for Generalization
+
+
+
+presentation5:
+  enable: true
+  title: To know more
+
 
 ########################## Revews ###########################
 reviews:
@@ -254,10 +263,16 @@ contact:
     to reach out."
   contactItem:
     # contact Item loop
-    - title: "ICML 2021 main website"
+    # - title: "ICML 2021 tutorial website"
+    #   icon: "ti-world" # themify icon pack : https://themify.me/themify-icons
+    #   list:
+    #     - listItem: "[icml.cc](https://icml.cc/Conferences/2021/Schedule?showEvent=10840)"
+
+    - title: "ICML 2021 tutorial website"
       icon: "ti-world" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem: "[icml.cc](https://icml.cc/)"
+        - listItem: "[icml.cc](https://icml.cc/virtual/2021/tutorial/10840)"
+
 
 #     # contact Item loop
 #     - title: "Email"
