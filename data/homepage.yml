@@ -16,40 +16,37 @@ chapters:
   title: "Random Matrix Theory in Machine Learning tutorial."
   subtitle: "We will present four talks around two cardinal aspects: 
   (1) introducing tools common in RMT that can be applied to machine learning, 
-  and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory."
+  and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory. The tutorial is divided into 4 parts of roughly 30 min each:"
   chapter:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "In this section we'll discuss applications of Random Matrix Theory  to Machine Learning
-        and introduce two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble
-        and Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality."
+        "We introduce two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble and Wishart matrices. We'll see the emergence of the semi-circle and Marchenko-Pastur distributions. [More ...](#presentation1)"
 
     # chapter preview loop
     - title: "Part 2: Introduction to random matrix theory, the Stieltjes and R transform"
       content:
-        "In this section we'll will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform.
-        Through experiments, we will illustrate how to construct increasingly complex random matrix theory models of real datasets. We'll also discuss some recent topics in random matrix theory such as freeness."
+        "In this section we'll will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform. We'll see how to use them to construct increasingly complex ensembles and discuss some recent topics in random matrix theory such as freeness. [More ...](#presentation2)"
 
     # chapter preview loop
     - title: "Part 3: Analysis of numerical algorithms"
       content:
-        "Tom Trogdon will discuss applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality."
+        "Tom Trogdon will discuss applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality. [More ...](#presentation3)"
 
     # chapter preview loop
     - title: "Part 4: The Mystery of Generalization: why Does Deep Learning Work?"
       content:
         "Jeffrey Pennington will walk us through models of generalization in Deep Neural Networks. With these models
-        we can study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent."
+        we can study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent. [More ...](#presentation4)"
 
 ###### SLIDES ######
 
 presentation1:
   enable: true
-  title: Part 1. Introduction and Classical Random Matrix Theory Ensembles
+  title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
   subtitle: "This section introduces two of the classical Random Matrix Theory ensembles, the Gaussian Orthogonal Ensembleand Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions in random matrix theory such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality."
   
-  links: "[**Slides PDF**]() | [**Slides source code**]() |  [**Experiments (Colab)**]() "
+  links: "[**Slides PDF**](/pdf/part1.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1Lver5l_9kaWviOW6C2SbCS4y2PTmZOel?usp=sharing) "
 
 
 
@@ -60,16 +57,20 @@ presentation2:
   title: "Part 2. Introduction to random matrix theory: the Stieltjes and R transform"
   subtitle: "This section introduces some core proof techniques in random matrix theory: the Stieltjes and R transform.
         Through experiments, we will illustrate how to use these objects to compute spectral properties of increasingly complex random matrix ensembles. We'll also discuss some recent topics in random matrix theory such as freeness."
+
+  links: "[**Slides PDF**](/pdf/part2.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides)  "
  
 presentation3:
   enable: true
   title: Part 3. Analysis of numerical algorithms
   subtitle: Analysis of Numerical Algorithms
+  links: "[**Slides PDF**]() | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1UZRSK665b8sqq0NQFwMCwrVabPlB-7nK?usp=sharing) "
 
 presentation4:
   enable: true
   title: "Part 4. The Mystery of Generalization: why Does Deep Learning Work?"
   subtitle: Models for Generalization
+  links: "[**Slides PDF**]() | [**Slides source code**](https://github.com/random-matrix-learning/slides) "
 
 
 
