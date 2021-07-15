@@ -21,23 +21,22 @@ chapters:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "We introduce two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble and Wishart matrices. We'll see the emergence of the semi-circle and Marchenko-Pastur distributions. [More ...](#presentation1)"
+        "This section introduces two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble and Wishart matrices. We'll see the emergence of the semi-circle and Marchenko-Pastur distributions from simple experiments on these matrices. [More ...](#presentation1)"
 
     # chapter preview loop
     - title: "Part 2: Introduction to random matrix theory, the Stieltjes and R transform"
       content:
-        "In this section we'll will introduce some of the core proof techniques in random matrix theory: the Stieltjes and R transform. We'll see how to use them to construct increasingly complex ensembles and discuss some recent topics in random matrix theory such as freeness. [More ...](#presentation2)"
+        "This section introduces some two very powerful objects in random matrix theory: the Stieltjes and R transform. We'll see how to use them to construct increasingly complex ensembles and discuss some recent topics in random matrix theory such as freeness. [More ...](#presentation2)"
 
     # chapter preview loop
     - title: "Part 3: Analysis of numerical algorithms"
       content:
-        "Tom Trogdon will discuss applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality. [More ...](#presentation3)"
+        "This section is devoted to applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality. [More ...](#presentation3)"
 
     # chapter preview loop
     - title: "Part 4: The Mystery of Generalization: why Does Deep Learning Work?"
       content:
-        "Jeffrey Pennington will walk us through models of generalization in Deep Neural Networks. With these models
-        we can study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent. [More ...](#presentation4)"
+        "This section discusses random matrix theory models of generalization in Deep Neural Networks. We'll see how these models can be used to study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent. [More ...](#presentation4)"
 
 ###### SLIDES ######
 
@@ -232,11 +231,11 @@ contact:
         - listItem: "[icml.cc](https://icml.cc/virtual/2021/tutorial/10840)"
 
 
-#     # contact Item loop
-#     - title: "Email"
-#       icon: "ti-email" # themify icon pack : https://themify.me/themify-icons
-#       list:
-#         - listItem: "pedregosa [at] google [dot] com "
+    # contact Item loop
+    - title: "Found a mistake in the materials?"
+      icon: "ti-github" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem: "Please report the issue [here](https://github.com/random-matrix-learning/slides/issues)"
 
     # contact Item loop
     - title: "Need help?"
