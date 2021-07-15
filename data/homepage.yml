@@ -57,7 +57,7 @@ presentation2:
   subtitle: "This section introduces some core proof techniques in random matrix theory: the Stieltjes and R transform.
         Through experiments, we will illustrate how to use these objects to compute spectral properties of increasingly complex random matrix ensembles. We'll also discuss some recent topics in random matrix theory such as freeness."
 
-  links: "[**Slides PDF**](/pdf/part2.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) | [**Experiments** (by Ria Stevels)](https://github.com/RiaStevens/rmt-research)"
+  links: "[**Slides PDF**](/pdf/part2.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) | [**Experiments** (by Ria Stevens)](https://github.com/RiaStevens/rmt-research)"
  
 presentation3:
   enable: true
