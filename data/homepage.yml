@@ -77,7 +77,21 @@ presentation4:
 
 presentation5:
   enable: true
-  title: To know more
+  title: To know more ...
+  subtitle: "This tutorial is meant as an introduction to the field of random matrix theory for machine learning researchers. Those wanting to deepen their understanding might be interested in the following references.
+
+  
+  Textbooks on random matrix theory:
+
+    * Tao, Terence. _Topics in random matrix theory_. American Mathematical Soc., 2012. [[PDF]](https://web.archive.org/web/20170922002846id_/https://terrytao.files.wordpress.com/2011/02/matrix-book.pdf)
+
+    * Bai, Zhidong, and Jack W. Silverstein. _Spectral analysis of large dimensional random matrices_. Vol. 20. New York: Springer, 2010. [[Springer]](http://dx.doi.org/10.1007/978-1-4419-0661-8).
+  
+  
+  Textbook on random matrix theory for machine learning:
+
+    * Romain Couillet, Zhenyu Liao. _Random Matrix Theory for Machine Learning_, 2021 [[PDF]](https://zhenyu-liao.github.io/pdf/RMT4ML.pdf), [[Webpage]](https://zhenyu-liao.github.io/book/)
+  "
 
 
 ########################## Revews ###########################

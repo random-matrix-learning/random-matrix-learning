@@ -238,7 +238,20 @@
 {{ end }}
 {{ end }}  
 
-
+{{ if .Site.Data.homepage.presentation5.enable }}
+{{ with .Site.Data.homepage.presentation5 }}
+<section class="section chapter" id="presentation4">
+  <div class="container">
+    <div class="row">
+        <div class="section-heading" style="margin-bottom: 40px">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+          <p style="margin: 0 auto; text-align: center">{{ .links | markdownify }}</p>
+        </div>
+ </div>
+</section>
+{{ end }}
+{{ end }}  
 
 
 
