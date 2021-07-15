@@ -98,7 +98,7 @@ presentation5:
 reviews:
   enable: true
   title: "Instructors"
-  subtitle: "The field experts that will guide you through random matrix theory in machine learning are"
+  subtitle: "The researchers that will guide you through this tutorial are"
   review:
     # review item loop
     - name: "Fabian Pedregosa"
