@@ -89,7 +89,7 @@ reviews:
     # review item loop
     - name: "Fabian Pedregosa"
       image: "images/fff.jpeg" # image size 80*80 px
-      designation: "Research scientist at Google Research Brain"
+      designation: "Research scientist at Google Research"
       content:
         "Fabian Pedregosa's research has focused in the last years in developing an
         average-case analysis of optimization algorithms using techniques from random matrix theory. 
@@ -119,7 +119,7 @@ reviews:
       # review item loop
     - name: "Jeffrey Pennington"
       image: "images/jjj.jpeg" # image size 80*80 px
-      designation: "Research scientist at Google Research Brain"
+      designation: "Research scientist at Google Research"
       content:
         "Jeffrey Pennington's current research interests center on the theory of deep learning, 
         and include topics such as random matrix theory and generalization in high dimensions, 
