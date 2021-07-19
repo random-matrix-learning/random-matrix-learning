@@ -64,14 +64,14 @@ presentation3:
   title: Part 3. Analysis of Numerical Algorithms
   subtitle:  "This section is devoted to applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality."
 
-  links: "[**Slides PDF**]() | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1UZRSK665b8sqq0NQFwMCwrVabPlB-7nK?usp=sharing) "
+  links: "[**Slides PDF**](/pdf/part3.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1UZRSK665b8sqq0NQFwMCwrVabPlB-7nK?usp=sharing) "
 
 presentation4:
   enable: true
   title: "Part 4. The Mystery of Generalization: Why Does Deep Learning Work?"
   subtitle:   "This section discusses random matrix theory models of generalization in Deep Neural Networks. We'll see how these models can be used to study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent. "
 
-  links: "[**Slides PDF**]() | [**Slides source code**](https://github.com/random-matrix-learning/slides) "
+  links: "[**Slides PDF**](/pdf/part4.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) "
 
 
 
