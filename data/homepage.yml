@@ -21,16 +21,7 @@ chapters:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
       content:
-        "This section introduces two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble and Wishart matrices. We'll see the emergence of the semi-circle and Marchenko-Pastur distributions from simple experiments on these matrices. [More ...](#presentation1) <div id='presentation-embed-38959830'></div>
-<script src='https://slideslive.com/embed_presentation.js'></script>
-<script>
-    embed = new SlidesLiveEmbed('presentation-embed-38959830', {
-        presentationId: '38959830',
-        autoPlay: false, // change to true to autoplay the embedded presentation
-        verticalEnabled: true
-    });
-</script>
-      "
+        "This section introduces two of the classical Random Matrix Theory ensembles: the Gaussian Orthogonal Ensemble and Wishart matrices. We'll see the emergence of the semi-circle and Marchenko-Pastur distributions from simple experiments on these matrices. [More ...](#presentation1)"
 
     # chapter preview loop
     - title: "Part 2: Introduction to Random Matrix Theory, the Stieltjes and R Transform"
