@@ -16,7 +16,7 @@ chapters:
   title: "Random Matrix Theory in Machine Learning tutorial."
   subtitle: "We will present four talks around two cardinal aspects: 
   (1) introducing tools common in RMT that can be applied to machine learning, 
-  and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory. The tutorial is divided into 4 parts of roughly 30 min each:"
+  and (2) Recent applications of RMT in optimization, generalization, and statistical learning theory. The tutorial is divided into 4 parts of roughly 30 min each. "
   chapter:
     # chapter preview loop
     - title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
@@ -45,7 +45,7 @@ presentation1:
   title: "Part 1: Introduction and Classical Random Matrix Theory Ensembles"
   subtitle: "This section introduces two of the classical Random Matrix Theory ensembles, the Gaussian Orthogonal Ensembleand Wishart matrices. Through numerical experiments, we'll motivate some of the most important distributions in random matrix theory such as the semi-circle and Marchenko-Pastur, as well as key concepts such as universality."
   
-  links: "[**Slides PDF**](/pdf/part1.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1Lver5l_9kaWviOW6C2SbCS4y2PTmZOel?usp=sharing) "
+  links: "[**Slides PDF**](/pdf/part1.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1Lver5l_9kaWviOW6C2SbCS4y2PTmZOel?usp=sharing) | [Video with Slides](https://slideslive.com/38959830)"
 
 
 
@@ -57,21 +57,21 @@ presentation2:
   subtitle: "This section introduces some core proof techniques in random matrix theory: the Stieltjes and R transform.
         Through experiments, we will illustrate how to use these objects to compute spectral properties of increasingly complex random matrix ensembles. We'll also discuss some recent topics in random matrix theory such as freeness."
 
-  links: "[**Slides PDF**](/pdf/part2.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) | [**Experiments R-Transform** (by Ria Stevens)](https://colab.research.google.com/github/RiaStevens/rmt-research/blob/main/RMT_Sim_Plots.ipynb) | [**Experiments Stieltjes Transform** (by Elliot Paquette)](https://colab.research.google.com/drive/1JZQbdLBJTg3pFEKP2k0vEnL9J4spz8fK?usp=sharing)"
+  links: "[**Slides PDF**](/pdf/part2.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) | [**Experiments R-Transform** (by Ria Stevens)](https://colab.research.google.com/github/RiaStevens/rmt-research/blob/main/RMT_Sim_Plots.ipynb) | [**Experiments Stieltjes Transform** (by Elliot Paquette)](https://colab.research.google.com/drive/1JZQbdLBJTg3pFEKP2k0vEnL9J4spz8fK?usp=sharing) | [Video with Slides](https://slideslive.com/38959830)"
  
 presentation3:
   enable: true
   title: Part 3. Analysis of Numerical Algorithms
   subtitle:  "This section is devoted to applications of random matrix theory into the analysis of numerical algorithms. We'll see how random matrix theory allows to avoid the pitfals of a worst-case analysis and why the time it takes for an algorithm to return a solution seems to be only mildly dependent on the data distribution over the inputs, a phenomenon known as halting time universality."
 
-  links: "[**Slides PDF**](/pdf/part3.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1UZRSK665b8sqq0NQFwMCwrVabPlB-7nK?usp=sharing) "
+  links: "[**Slides PDF**](/pdf/part3.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) |  [**Experiments (Colab)**](https://colab.research.google.com/drive/1UZRSK665b8sqq0NQFwMCwrVabPlB-7nK?usp=sharing) | [Video with Slides](https://slideslive.com/38962481)"
 
 presentation4:
   enable: true
   title: "Part 4. The Mystery of Generalization: Why Does Deep Learning Work?"
   subtitle:   "This section discusses random matrix theory models of generalization in Deep Neural Networks. We'll see how these models can be used to study some of the most puzzling behaviors of deep neural networks, such as double (and triple) descent. "
 
-  links: "[**Slides PDF**](/pdf/part4.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) "
+  links: "[**Slides PDF**](/pdf/part4.pdf) | [**Slides source code**](https://github.com/random-matrix-learning/slides) | [Video with Slides](https://slideslive.com/38962482)"
 
 
 
